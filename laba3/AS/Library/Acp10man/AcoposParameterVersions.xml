@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.0.11.60?>
+<Parameters>
+    <Parameter ID="849" VersionFrom="1.19.0" />
+    <Parameter ID="891" VersionFrom="2.02.1" />
+    <Parameter ID="892" VersionFrom="2.02.1" />
+    <Parameter ID="951" VersionFrom="2.04.0" />
+    <Parameter ID="952" VersionFrom="2.04.0" />
+    <Parameter ID="1048" VersionFrom="2.00.1" />
+    <Parameter ID="1225" VersionFrom="2.38.0" />
+    <Parameter ID="1226" VersionFrom="2.38.0" />
+    <Parameter ID="1227" VersionFrom="2.38.0" />
+    <Parameter ID="865" VersionFrom="2.34.0" />
+    <Parameter ID="1209" VersionFrom="2.34.0" />
+    <Parameter ID="1210" VersionFrom="2.34.0" />
+    <Parameter ID="1211" VersionFrom="2.34.0" />
+    <Parameter ID="1212" VersionFrom="2.34.0" />
+    <Parameter ID="1213" VersionFrom="2.34.0" />
+    <Parameter ID="1214" VersionFrom="2.34.0" />
+    <Parameter ID="1215" VersionFrom="2.34.0" />
+    <Parameter ID="1216" VersionFrom="2.34.0" />
+    <Parameter ID="1260" VersionFrom="2.34.0" />
+    <Parameter ID="1261" VersionFrom="2.34.0" />
+    <Parameter ID="1262" VersionFrom="2.34.0" />
+    <Parameter ID="1489" VersionFrom="2.40.0" />
+    <Parameter ID="1490" VersionFrom="2.40.0" />
+    <Parameter ID="1503" VersionFrom="2.42.2" />
+    <Parameter ID="1504" VersionFrom="2.42.2" />
+    <Parameter ID="1505" VersionFrom="2.42.2" />
+    <Parameter ID="1506" VersionFrom="2.42.2" />
+</Parameters>

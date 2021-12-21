@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="The AsArcnet library provides functions for handling interfaces from the Arcnet line.">
+  <Files>
+    <File>AsArcnet.var</File>
+    <File>AsArcnet.typ</File>
+    <File>AsArcnet.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="runtime" />
+  </Dependencies>
+</Library>

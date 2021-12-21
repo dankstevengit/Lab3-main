@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="LATCH" Name-de="LATCH" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="9728" Name="FB0 LATCH Mode" Value="0" Unit=""/>
+<Parameter ID="9736" Name="FB0 LATCH Parameter ID of input" Value="" Unit=""/>
+<Parameter ID="9744" Name="FB0 LATCH Parameter ID of trigger event input" Value="" Unit=""/>
+<Parameter ID="9752" Name="FB0 LATCH Trigger event type" Value="" Unit=""/>
+<Parameter ID="9760" Name="FB0 LATCH Minimal signal width of trigger event" Value="" Unit=""/>
+<Parameter ID="9768" Name="FB0 LATCH Maximum signal width of trigger event" Value="" Unit=""/>
+<Parameter ID="9856" Name="FB0 LATCH Window1" Value="" Unit=""/>
+<Parameter ID="9864" Name="FB0 LATCH Window2" Value="" Unit=""/>
+<Parameter ID="9784" Name="FB0 LATCH Window position" Value="" Unit=""/>
+<Parameter ID="9792" Name="FB0 LATCH Interval of window position" Value="" Unit=""/>
+<Parameter ID="9800" Name="FB0 LATCH Interval elongation of window position" Value="" Unit=""/>
+<Parameter ID="9808" Name="FB0 LATCH Delay time" Value="" Unit="us"/>
+<Parameter ID="9824" Name="FB0 LATCH Result value" Value="" Unit=""/>
+<Parameter ID="9848" Name="FB0 LATCH Error counter" Value="" Unit=""/>
+<Parameter ID="9728" Name="FB0 LATCH Mode" Value="" Unit=""/>
+</AcoposParameters>

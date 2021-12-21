@@ -1,0 +1,23 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: MTIdent
+ * File: MTIdent.var
+ * Author: B&R
+ * Created: August 30, 2013
+ ********************************************************************
+ * Constants of library MTIdent
+ ********************************************************************)
+VAR CONSTANT
+	mtACD_ERR_SYSTEM_ORDER_TOO_HIGH : DINT := -1058011144; (*Error: System order of parametric model invalid. Maximum SystemOrder= 5.*)
+	mtACD_ERR_INVALID_SYSTEM_ORDER : DINT := -1058011143; (*Error: System order leads to a gain factor which is identified. Increas SystemOrder.*)
+	mtACD_ERR_INVALID_WEIGHT_FACTOR : DINT := -1058011142; (*Error: WeightingFactor > 1 and < 0 not possible. Adjust WeightingFactor.*)
+	mtACD_ERR_NOT_SETTLED_DOWN : DINT := -1058011141; (*Error: System is not settled down. Let oscillations fade away and try again.*)
+	mtACD_WRN_SYSTEM_ORDER_TOO_HIGH : DINT := -2131752968; (*Warning: System order of parametric model invalid. Maximum SystemOrder= 5.*)
+	mtACD_WRN_INVALID_SYSTEM_ORDER : DINT := -2131752967; (*Warning: System order leads to a gain factor which is identified. Increase SystemOrder.*)
+	mtACD_WRN_INVALID_WEIGHT_FACTOR : DINT := -2131752966; (*Warning: WeightingFactor > 1 and < 0 not possible. Adjust WeightingFactor.*)
+	mtACD_WRN_SMALL_WEIGHT_FACTOR : DINT := -2131752965; (*Warning: Small WeightingFactor may lead to bad results.*)
+	mtACD_WRN_NOT_SETTLED_DOWN : DINT := -2131752964; (*Warning: System is not settled down. Let oscillations fade away and try again.*)
+	mtACD_WRN_ABORTED_TOO_EARLY : DINT := -2131752963; (*Warning: Identification was aborted too early.*)
+	mtACD_WRN_OTHER_FB_USES_SYSREF : DINT := -2131755008; (*Warning: Another function block is using the data for this system reference.*)
+END_VAR

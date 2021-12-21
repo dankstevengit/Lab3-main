@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library Version="1.00.3" xmlns="http://br-automation.co.at/AS/Library" Description="This library contains function blocks measuring fluid flow by means of pressure differential devices inserted in circular-cross section conduits running full according to EN ISO 5167.">
+  <Files>
+    <File>MTFlow.fun</File>
+    <File>MTFlow.typ</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="sys_lib" />
+    <Dependency ObjectName="brsystem" />
+  </Dependencies>
+</Library>

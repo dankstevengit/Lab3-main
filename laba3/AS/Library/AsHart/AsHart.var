@@ -1,0 +1,23 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: AsHart
+ * File: AsHart.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library AsHart
+ ********************************************************************)
+
+(* error area 35580 - 35599 for AsHart reserved *)  
+                                                                    
+VAR CONSTANT
+	hartERR_INVALID_DEVICE		: UINT := 35580;
+	hartERR_MODULE_DOESNT_EXIST	: UINT := 35581;
+	hartERR_ALREADY_OPENED		: UINT := 35582;
+	hartERR_DEVICE_OPEN		: UINT := 35583;
+	hartERR_INVALID_IDENT		: UINT := 35584;
+        hartERR_INVALID_BUFFER          : UINT := 35585;
+	hartERR_PUT_CMD_IOCTL		: UINT := 35586;
+	hartERR_QUEUE_FULL		: UINT := 35587;
+	hartERR_DEVICE_CLOSE		: UINT := 35588;
+END_VAR

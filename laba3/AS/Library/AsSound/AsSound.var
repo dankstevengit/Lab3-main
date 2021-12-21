@@ -1,0 +1,29 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: AsSound
+ * File: AsSound.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library AsSound
+ ********************************************************************)
+                                                                      
+VAR CONSTANT
+	sndERR_NODRIVER				: UINT		:= 35050;	(*no device driver is present*)
+	sndERR_INVALID_PARAM		: UINT		:= 35051;	(*invalid parameters*)
+	sndERR_FILE_NOT_FOUND		: UINT		:= 35052;	(*file not found*)
+	sndERR_ALLOCATED			: UINT		:= 35053;	(*specified resource is already allocated*)
+	sndERR_BAD_FORMAT			: UINT		:= 35054;	(*attempted to open with an unsupported waveform-audio format*)
+	sndERR_NOMEM				: UINT		:= 35055;	(*unable to allocate or lock memory*)
+	sndERR_LIMIT_STREAMS		: UINT		:= 35056;	(*maximum number of playback streams reached*)
+	sndERR_MODE_EXCLUSIVE		: UINT		:= 35057;	(*exclusive more enabled for a deddicated snd-object*)
+	sndERR_OUT_OF_RANGE			: UINT		:= 35058;	(*volume level out of range [0,100]*)
+
+	sndDELETE					: UINT		:= 1;		(*delete snd-object*)
+	sndSTOP						: UINT		:= 2;		(*stop snd-object*)
+	sndPLAY						: UINT		:= 3;		(*play snd-object*)
+	sndPAUSE					: UINT		:= 4;		(*pause snd-object*)
+	
+	sndEXCLUSIVE				: UINT		:= 16;		(*exclusive playback*)		
+	sndLOOP						: UINT		:= 32;		(*loop playback*)
+END_VAR

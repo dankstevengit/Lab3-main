@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="DIO" Name-de="DIO" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="5776" Name="FB0 DIO parameter ID of output 1" Value="" Unit=""/>
+<Parameter ID="5784" Name="FB0 DIO parameter ID of output 2" Value="" Unit=""/>
+<Parameter ID="5792" Name="FB0 DIO parameter ID of output 3" Value="" Unit=""/>
+<Parameter ID="5800" Name="FB0 DIO parameter ID of output 4" Value="" Unit=""/>
+<Parameter ID="5808" Name="FB0 DIO parameter ID of output 5" Value="" Unit=""/>
+<Parameter ID="5816" Name="FB0 DIO parameter ID of output 6" Value="" Unit=""/>
+<Parameter ID="5824" Name="FB0 DIO parameter ID of output 7" Value="" Unit=""/>
+<Parameter ID="5832" Name="FB0 DIO parameter ID of output 8" Value="" Unit=""/>
+<Parameter ID="5840" Name="FB0 DIO parameter ID of output 9" Value="" Unit=""/>
+<Parameter ID="5848" Name="FB0 DIO parameter ID of output 10" Value="" Unit=""/>
+<Parameter ID="5920" Name="FB0 DIO IO configuration" Value="" Unit=""/>
+</AcoposParameters>

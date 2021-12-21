@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="The MFDD70S external floppy disk station can be operating using the FDD_Lib library.">
+  <Files>
+    <File>FDD_lib.fun</File>
+    <File>FDD_lib.typ</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="sys_lib" />
+    <Dependency ObjectName="runtime" />
+    <Dependency ObjectName="dvframe" />
+  </Dependencies>
+</Library>

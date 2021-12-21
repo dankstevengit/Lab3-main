@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.5"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="8B0W0045H000.001-1 mounting horizontal V1" Name-de="8B0W0045H000.001-1 Einbaulage horizontal V1" Category-en="External bleeder" Category-de="Externer Bremswiderstand"/>
+<Group Descr-en=" DO NOT USE with ACOPOS Firmware before V2.27.0" Descr-de=" NICHT VERWENDEN mit ACOPOS Firmware vor V2.27.0" Disabled="TRUE" />
+<Parameter ID="10" Name="Bleeder: External: Resistance" Value="50" Unit="" Disabled="TRUE" />
+<Parameter ID="11" Name="Bleeder: External: Limit temperature" Value="682.65" Unit="" Disabled="TRUE" />
+<Parameter ID="12" Name="Bleeder: External: Thermic resistance" Value="1.657" Unit="" Disabled="TRUE" />
+<Parameter ID="13" Name="Bleeder: External: Thermic capacity" Value="30.88" Unit="" Disabled="TRUE" />
+<Parameter ID="398" Name="Bleeder: Selector" Value="1" Unit="" Disabled="TRUE" />
+</AcoposParameters>

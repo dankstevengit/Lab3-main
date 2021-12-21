@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="The SRAM200x library provides the user the opportunity to use the SRAM which is available on the IPC200x.">
+  <Files>
+    <File>SRAM200x.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="BrSystem" />
+    <Dependency ObjectName="runtime" />
+  </Dependencies>
+</Library>

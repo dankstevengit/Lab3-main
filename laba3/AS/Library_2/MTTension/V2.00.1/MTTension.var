@@ -1,0 +1,16 @@
+VAR CONSTANT
+	mtPRN_ERR_WEB_LENGTH_INVALID : DINT := -1058006164; (*Web length invalid.*)
+	mtPRN_ERR_WEB_FACTOR_INVALID : DINT := -1058006163; (*Web factor invalid.*)
+	mtPRN_ERR_RESPONSE_RATE_INVALID : DINT := -1058006162; (*ControlResponseRiseTime invalid.*)
+	mtPRN_ERR_RESPONSE_OVERSHOOT : DINT := -1058006139; (*ControlResponseOvershoot invalid.*)
+	mtPRN_ERR_NUM_OF_ZONES_INVALID : DINT := -1058006159; (*Number of zones invalid.*)
+	mtPRN_ERR_MATERIAL_BREAK : DINT := -1058006137; (*Material failure was detected.*)
+	mtPRN_ERR_MAX_VEL_CORRECTION : DINT := -1058006140; (*The selected output limit for the correction velocity is invalid.*)
+	mtPRN_WRN_WEB_LENGTH_INVALID : DINT := -2131747988; (*Web length invalid. Retain last valid values.*)
+	mtPRN_WRN_WEB_FACTOR_INVALID : DINT := -2131747987; (*Web factor  invalid. Retain last valid values.*)
+	mtPRN_WRN_RESPONSE_RATE_INVALID : DINT := -2131747986; (*StepResponseRiseTime invalid. Retain last valid values.*)
+	mtPRN_WRN_RESPONSE_OVERSHOOT : DINT := -2131747963; (*StepResponseOvershoot invalid. Retain last valid values.*)
+	mtPRN_WRN_NUM_OF_ZONES_INVALID : DINT := -2131747983; (*Number of zones invalid. Retain last valid values.*)
+	mtPRN_WRN_CTRL_PAR_CALCULATION : DINT := -2131747982; (*Calculation of control parameters wrong.*)
+	mtPRN_WRN_MAX_VEL_CORRECTION : DINT := -2131747964; (*The selected output limit for the correction velocity is invalid.*)
+END_VAR

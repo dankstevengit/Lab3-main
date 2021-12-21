@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library Version="1.01.0" xmlns="http://br-automation.co.at/AS/Library" Description="This library contains technology functions for the control of general hydraulic drives.">
+  <Files>
+    <File>MTHydGen.fun</File>
+    <File>MTHydGen.typ</File>
+    <File>MTHydGen.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="brsystem" />
+    <Dependency ObjectName="sys_lib" />
+  </Dependencies>
+</Library>

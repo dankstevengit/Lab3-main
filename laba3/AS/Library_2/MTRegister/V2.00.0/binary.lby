@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library Version="2.00.0" xmlns="http://br-automation.co.at/AS/Library" Description="This mechatronics library contains function blocks for register control in a rotogravure printing press.">
+  <Files>
+    <File>MTRegister.fun</File>
+    <File>MTRegister.typ</File>
+    <File>MTRegister.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="brsystem" />
+    <Dependency ObjectName="sys_lib" />
+    <Dependency ObjectName="MTTypes" FromVersion="1.03.0" />
+  </Dependencies>
+</Library>

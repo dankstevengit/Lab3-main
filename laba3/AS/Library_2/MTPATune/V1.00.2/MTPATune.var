@@ -1,0 +1,23 @@
+(*Error*)
+VAR CONSTANT
+	mtPAT_ERR_SMALL_MAX_TIME_CONST : DINT := -1058004075; (*In test signal the frequency is so high that its period is less than 20 sampling time. Tuning results are not issued when this error. The procedure should be restart with MaxTimeConstant increased.*)
+	mtPAT_ERR_PID_TUNING_FAILED : DINT := -1058004074; (*The unstable model is identified from measured data. Tuning results are not issued when this error.*)
+	mtPAT_ERR_INVALID_PLANT_IO : DINT := -1058004073; (*"PlantInput" and or "PlantOutput" loaded with NAN or +-Inf*)
+	mtPAT_ERR_INVALID_MAX_TIME_CONST : DINT := -1058004072; (*Invalid Parameter "MaxTimeConstant"*)
+	mtPAT_ERR_INVALID_MAX_AMPLITUDE : DINT := -1058004071; (*Invalid Parameter "MaxAmplitude"*)
+	mtPAT_ERR_INVALID_PHASE_MARGIN : DINT := -1058004070; (*Invalid Parameter "PhaseMargin". Either "PhaseMargin" = 0 or "PhaseMargin">=45° and "PhaseMargin"<=90°*)
+	mtPAT_ERR_INVALID_OUT_LIMITATION : DINT := -1058004069; (*Invalid Parameter "MinOut" and / or MaxOut. Either "MinOut" = "MaxOut" = 0 or "MinOut" < "MaxOut".*)
+	mtPAT_ERR_OUTPUT_SATURATION : DINT := -1058004068; (*Tuning was aborted because output "Out" was limited by "MinOut" or "MaxOut".*)
+	mtPAT_ERR_PID_RECALC_FAILED : DINT := -1058004067; (*Procedure of PID controller parameters recalculation (fbTuner.bPID_Recalc is true) can not be executed because there is no the model data or fbTuner.bFinish is false.*)
+END_VAR
+(*Warning*)
+VAR CONSTANT
+	mtPAT_WRN_INVALID_IDENT_VERIFY : DINT := -2131745900; (* Verification of identification results is mismatched. This is a warning. Results are present but may be incorrect.*)
+	mtPAT_WRN_NO_TUNING_CONVERGENCE : DINT := -2131745899; (*This is a warning that within stated identification time the convergence condition is not satisfied.  Results are present but may be incorrect. *)
+	mtPAT_WRN_MAX_IT_LOW_FREQ_SEARCH : DINT := -2131745898; (*Procedure of low-frequency search exceeds a predetermined number of iterations. This is a warning that the procedure is not followed through. Most likely it does not affect the quality of the result or the procedure should be restart with MaxTimeConstant increased.*)
+	mtPAT_WRN_INVALID_MAX_TIME_CONST : DINT := -2131745897; (*Invalid Parameter "MaxTimeConstant"*)
+	mtPAT_WRN_INVALID_MAX_AMPLITUDE : DINT := -2131745896; (*Invalid Parameter "MaxAmplitude"*)
+	mtPAT_WRN_INVALID_PHASE_MARGIN : DINT := -2131745895; (*Invalid Parameter "PhaseMargin". Either "PhaseMargin" = 0 or "PhaseMargin">=45° and "PhaseMargin"<=90°.*)
+	mtPAT_WRN_INVALID_OUT_LIMITATION : DINT := -2131745894; (*Invalid Parameter "MinOut" and / or MaxOut. Either "MinOut" = "MaxOut" = 0 or "MinOut" < "MaxOut".*)
+	mtPAT_WRN_PID_CALC_MAX_ITER : DINT := -2131745893; (*Procedure of calculation of PID controller parameters exceeds a predetermined number of iterations. This is a warning that actual phase margin is less than Parameter "PhaseMargin" and controller is not robust. Problem can be solved by increasing of the value of SystemSettlingTime.*)
+END_VAR

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="The IO_Lib library allows users to access module I/O points directly, to check the presence of modules on the I/O bus, to disable access to I/O modules or to create a list of all modules present on the I/O bus.">
+  <Files>
+    <File>io_lib.fun</File>
+    <File>io_lib.typ</File>
+    <File>io_lib.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="runtime" />
+  </Dependencies>
+</Library>

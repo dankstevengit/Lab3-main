@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="DELAY" Name-de="DELAY" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="7168" Name="FB0 DELAY parameter ID of input" Value="" Unit=""/>
+<Parameter ID="7176" Name="FB0 DELAY time" Value="" Unit="s"/>
+</AcoposParameters>

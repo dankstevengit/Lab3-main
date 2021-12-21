@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.5"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="Virtual Axis Automat Compensation Gear" Name-de="Virtuelle Achse Automat Ausgleichsgetriebe" Category-en="CAM Automat" Category-de="CAM Automat"/>
+<Parameter ID="572" Name="VAX Cam automat: Minimum compensation distance of master axis" Value="" Unit="Units"/>
+<Parameter ID="608" Name="VAX Cam automat: Minimum compensation distance of slave axis" Value="" Unit="Units"/>
+<Parameter ID="610" Name="VAX Cam automat: Maximum compensation distance of slave axis" Value="" Unit="Units"/>
+<Parameter ID="614" Name="VAX Cam automat: Minimum speed of slave axis within compensation gears" Value="" Unit="Units/s"/>
+<Parameter ID="765" Name="VAX Cam automat: Maximum speed of slave axis within compensation gears" Value="" Unit="Units/s"/>
+<Parameter ID="767" Name="VAX Cam automat: Maximum acceleration of slave axis within compensation phase1" Value="" Unit="Units/s²"/>
+<Parameter ID="769" Name="VAX Cam automat: Maximum acceleration of slave axis within compensation phase2" Value="" Unit="Units/s²"/>
+<Parameter ID="640" Name="VAX Cam automat: Jolt time of slave axis within compensation gears" Value="" Unit="s"/>
+</AcoposParameters>

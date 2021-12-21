@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.5"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="DYNSYS - Virtual Sensor based control" Name-de="DYNSYS - Regelung mit Virtuellem Sensor" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="14336" Name="FB0 FB DYNSYS: Mode" Value="0" Unit=""/>
+<Parameter ID="14344" Name="FB0 FB DYNSYS: System parameter A" Value="" Unit=""/>
+<Parameter ID="14344" Name="FB0 FB DYNSYS: System parameter A" Value="" Unit=""/>
+<Parameter ID="14344" Name="FB0 FB DYNSYS: System parameter A" Value="" Unit=""/>
+<Parameter ID="14344" Name="FB0 FB DYNSYS: System parameter A" Value="" Unit=""/>
+<Parameter ID="14376" Name="FB0 FB DYNSYS: Tuning parameter 1 for observer design" Value="0.01" Unit=""/>
+<Parameter ID="14392" Name="FB0 FB DYNSYS: Tuning parameter 1 for output design" Value="0.0" Unit=""/>
+<Parameter ID="14408" Name="FB0 FB DYNSYS: Parameter ID for input 1" Value="TORQUE_ACT" Unit=""/>
+<Parameter ID="14416" Name="FB0 FB DYNSYS: Parameter ID for input 2" Value="SCTRL_SPEED_ACT" Unit=""/>
+<Parameter ID="14336" Name="FB0 FB DYNSYS: Mode (note: set SCTRL_ADD_SET_PARID = DYNSYS_OUT1_VALUE+X for activation)" Value="0x1203" Unit=""/>
+</AcoposParameters>

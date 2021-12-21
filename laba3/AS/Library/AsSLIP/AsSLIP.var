@@ -1,0 +1,13 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: AsSLIP
+ * File: AsSLIP.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library AsSLIP
+ ********************************************************************)
+                                                                      
+VAR CONSTANT
+	slipERR_INVALID_DEVICE				: UINT := 31950;	(*invlalid parent device*)
+END_VAR

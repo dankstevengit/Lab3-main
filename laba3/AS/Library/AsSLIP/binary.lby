@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="The function blocks in the AsSLIP library can be used to start and stop SLIP devices.">
+  <Files>
+    <File>AsSLIP.var</File>
+    <File>AsSLIP.typ</File>
+    <File>AsSLIP.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="runtime" />
+  </Dependencies>
+</Library>

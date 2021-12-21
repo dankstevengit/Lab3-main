@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="CURVE" Name-de="CURVE" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="8192" Name="FB0 CURVE Mode" Value="0" Unit=""/>
+<Parameter ID="8200" Name="FB0 CURVE Parameter ID of input" Value="" Unit=""/>
+<Parameter ID="8208" Name="FB0 CURVE Index of cam profile data" Value="" Unit=""/>
+<Parameter ID="8272" Name="FB0 CURVE Multiplication factor for input interval" Value="" Unit=""/>
+<Parameter ID="8280" Name="FB0 CURVE Multiplication factor for output interval" Value="" Unit=""/>
+<Parameter ID="8192" Name="FB0 CURVE Mode" Value="" Unit=""/>
+</AcoposParameters>

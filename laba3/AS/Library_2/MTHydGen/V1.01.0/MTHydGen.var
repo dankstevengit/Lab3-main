@@ -1,0 +1,52 @@
+(*VelocityGenerator Errors*)
+VAR CONSTANT
+	mtHYD_ERR_VELGEN_POS_PAR_INVALID : DINT := -1058008840; (*Error: One or more parameters in positive direction are invalid.*)
+	mtHYD_ERR_VELGEN_NEG_PAR_INVALID : DINT := -1058008839; (*Error: One or more parameters in negative direction are invalid.*)
+END_VAR
+(*VelocityGenerator Warnings*)
+VAR CONSTANT
+	mtHYD_WRN_VELGEN_POS_PAR_INVALID : DINT := -2131750664; (*Warning: One or more parameters in positive direction are invalid.*)
+	mtHYD_WRN_VELGEN_NEG_PAR_INVALID : DINT := -2131750663; (*Warning: One or more parameters in negative direction are invalid.*)
+	mtHYD_WRN_VELGEN_SETINITVELOCITY : DINT := -2131750662; (*Warning: SetInitVelocity was not executed.*)
+	mtHYD_WRN_VELGEN_PBB_STOP_ACTIVE : DINT := -2131750661; (*Warning: Start was not executed. PBB or stopping is active.*)
+	mtHYD_WRN_VELGEN_VREF_INVALID : DINT := -2131750660; (*Warning: Start was not executed. ReferenceVelocity is invalid.*)
+	mtHYD_WRN_VELGEN_TP_PAR_INVALID : DINT := -2131750659; (*Warning: Start was not executed. One or more parameters of the TargetPoint are invalid.*)
+	mtHYD_WRN_VELGEN_SP_PAR_INVALID : DINT := -2131750658; (*Warning: Start was not executed. One or more parameters of the SafePoints are invalid.*)
+	mtHYD_WRN_VELGEN_TP_NOTREACHABLE : DINT := -2131750657; (*Warning: Start was not executed. A secure and smooth reaching is not possible.*)
+	mtHYD_WRN_VELGEN_SP_NOTREACHABLE : DINT := -2131750656; (*Warning: Start was not executed. A secure and smooth reaching is not possible.*)
+	mtHYD_WRN_TP_POS_DECTAB_INVALID : DINT := -2131750655; (*Warning: Start was not executed. One or more parameters in TargetPoint.PosDireciton.DecelerationTable are invalid.*)
+	mtHYD_WRN_TP_NEG_DECTAB_INVALID : DINT := -2131750654; (*Warning: Start was not executed. One or more parameters in TargetPoint.NegDireciton.DecelerationTable are invalid.*)
+	mtHYD_WRN_TP_POS_DEADTAB_INVALID : DINT := -2131750653; (*Warning: Start was not executed. One or more parameters in TargetPoint.PosDireciton.DeadTimeTable are invalid.*)
+	mtHYD_WRN_TP_NEG_DEADTAB_INVALID : DINT := -2131750652; (*Warning: Start was not executed. One or more parameters in TargetPoint.NegDireciton.DeadTimeTable are invalid.*)
+END_VAR
+(*Profile Identification Errors*)
+VAR CONSTANT
+	mtHYD_ERR_PROFID_OUT_OF_WORKAREA : DINT := -1058008864; (*Error: Cylinder position is outside the allowed working area.*)
+	mtHYD_ERR_PROFID_WORK_AREA_INV : DINT := -1058008863; (*Error: Configured cylinder working area invalid.*)
+	mtHYD_ERR_PROFID_POS_PAR_INVALID : DINT := -1058008862; (*Error: Parameters in positive direction invalid.*)
+	mtHYD_ERR_PROFID_NEG_PAR_INVALID : DINT := -1058008861; (*Error: Parameters in negative direction invalid.*)
+	mtHYD_ERR_PROFID_MODE_INVALID : DINT := -1058008860; (*Error: Configured mode invalid.*)
+END_VAR
+(*Profile Identification Warnings*)
+VAR CONSTANT
+	mtHYD_WRN_PROFID_NO_UPDATE : DINT := -2131750688; (*Warning: Update not executed.*)
+	mtHYD_WRN_PROFID_WORK_AREA_INV : DINT := -2131750687; (*Warning: Configured cylinder working area invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_PROFID_POS_PAR_INVALID : DINT := -2131750686; (*Warning: Parameters in positive direction invalid. Retain the last valid configuration.*)
+	mtHYD_WRN_PROFID_NEG_PAR_INVALID : DINT := -2131750685; (*Warning: Parameters in negative direction invalid. Retain the last valid configuration.*)
+	mtHYD_WRN_PROFID_MODE_INVALID : DINT := -2131750684; (*Warning: Configured mode invalid. Retain the last valid configuration.*)
+	mtHYD_WRN_PROFID_POS_DT_INVALID : DINT := -2131750683; (*Warning: Configured dead time identification parameters for positive direction invalid. StartIdentificaiton command not executed.*)
+	mtHYD_WRN_PROFID_NEG_DT_INVALID : DINT := -2131750682; (*Warning: Configured dead time identification parameters for negative direction invalid. StartIdentificaiton command not executed.*)
+	mtHYD_WRN_PROFID_CALC_ACC_WRONG : DINT := -2131750681; (*Warning: Acceleration is probably calculated wrong, because the set velocity wasn't reached until the half of the movement distance.*)
+	mtHYD_WRN_PROFID_STICKING : DINT := -2131750680; (*Warning: During dead time identification the target position wasn't reached. Probably a sticking of the cylinder is occured.*)
+	mtHYD_WRN_PROFID_NOTIN_TOLERANCE : DINT := -2131750679; (*Warning: The specified position tolerance couldn't be reached.*)
+END_VAR
+(*AdaptivePosCorrection Errors*)
+VAR CONSTANT
+	mtHYD_ERR_POSCORR_PAR_INVALID : DINT := -1058008851; (*Error: Parameters of MTHydGenAdaptivePosCorrection invalid.*)
+END_VAR
+(*AdaptivePosCorrection Warnings*)
+VAR CONSTANT
+	mtHYD_WRN_POSCORR_PAR_INVALID : DINT := -2131750675; (*Warning: Parameters of MTHydGenAdaptivePosCorrection invalid.*)
+	mtHYD_WRN_POSCORR_MAX_CORR : DINT := -2131750674; (*Warning: PositionCorrection has reached allowed MaximumCorrection.*)
+	mtHYD_WRN_POSCORR_SETPOS : DINT := -2131750673; (*Warning: MTHydGenAdaptivePosCorrection: SetPos changed during WaitingTime.*)
+END_VAR

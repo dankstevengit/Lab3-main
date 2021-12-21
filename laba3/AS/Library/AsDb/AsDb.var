@@ -1,0 +1,58 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: AsDb
+ * File: AsDb.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library AsDb
+ ********************************************************************)
+                                                                      
+VAR CONSTANT
+	DB_SYSTEM_SYBASE				: UINT := 1;		(*Sybase database*)
+	DB_SYSTEM_MS_SQL				: UINT := 2;		(*Microsoft SQL database*)
+	 
+	DB_DEFAULT_PORT					: UINT := 5000;		(*default database port*)
+	
+	DB_SQL_ERROR					: INT := -1;		(*SQL error*)
+	DB_SQL_INVALID_HANDLE			: INT := -2;		(*invalid SQL database handle*)
+	DB_SQL_NO_DATA					: INT := 100;		(*no data available*)
+	
+	DB_SQL_CHAR						: INT := 1;			(*character data type of either fixed length or variable length*)
+	DB_SQL_NUMERIC					: INT := 2;			(*numeric data type with fixed precision and scale*)
+	DB_SQL_DECIMAL					: INT := 3;			(*numeric data type with fixed precision and scale*)
+	DB_SQL_BIGINT					: INT := -25;		(*big integer 8 bytes*) 
+	DB_SQL_INTEGER					: INT := 4;			(*DINT*)
+	DB_SQL_SMALLINT					: INT := 5;			(*INT*)
+	DB_SQL_TINYINT					: INT := -6;		(*SINT*)
+	DB_SQL_REAL						: INT := 7;			(*REAL*)
+	DB_SQL_DOUBLE					: INT := 8;			(*LREAL*)
+	DB_SQL_DATE						: INT := 9;			(*date, 6 bytes: yy.mm.dd*)
+	DB_SQL_TIME						: INT := 10;		(*time of a day without time zone based on a 24-hour clock, 6 bytes: hh:mm:ss*)
+	DB_SQL_TIMESTAMP				: INT := 11;		(*DB_SQL_DATE + TIME 12 bytes: yy.mm.dd hh:mm:ss*)
+	DB_SQL_VARCHAR					: INT := 12;		(*character data type of either fixed length or variable length*)
+	DB_SQL_GUID						: INT := -11;		(*16 byte GUID*)
+	
+	
+	dbERR_MEMORY 					: UINT := 34930;	(*memory error*)
+	dbERR_DATABASE					: UINT := 34931;	(*database returned an error*)
+	dbERR_INVALID_HANDLE			: UINT := 34932;	(*invalid handle specified*)
+	dbERR_INVALID_COLUMN			: UINT := 34933;	(*invalid column index specified*)
+	dbERR_UNSUPPORTED_DATABASE		: UINT := 34934;	(*unsupported database*)
+	dbERR_BUFFER_SIZE				: UINT := 34935;	(*buffer too small*)
+	dbERR_INVALID_SERVERNAME		: UINT := 34936;	(*invalid server name*)
+	dbERR_INVALID_USERNAME  		: UINT := 34937;	(*invalid user name*)
+	dbERR_INVALID_PASSWORD  		: UINT := 34938;	(*invalid password*)
+	dbERR_INVALID_DATABASE_NAME 	: UINT := 34939;	(*invalid database name*)
+	dbERR_INVALID_SQL_STATEMENT 	: UINT := 34940;	(*invalid SQL statement*)
+	dbERR_SQL_EXECUTE_REQUIRED		: UINT := 34941;	(*dbExecuteSql() must be called before*)
+	dbERR_INVALID_DATATYPE			: UINT := 34942;	(*invalid data type*)
+	dbERR_NULLPOINTER				: UINT := 34943;	(*null pointer*)
+	dbERR_NOT_AVAILABLE				: UINT := 34944;	(*information not available*)
+	dbERR_UNSUPPORTED_ENCODING		: UINT := 34945;	(*unsupported encoding specified*)
+END_VAR
+
+VAR CONSTANT
+	DB_ENCODING_ISO_8859_1			: STRING[12] := 'ISO-8859-1';	(*ISO-8859-1 encoding*)
+	DB_ENCODING_UTF_8				: STRING[12] := 'UTF-8';		(*UTF-8 encoding*)
+END_VAR

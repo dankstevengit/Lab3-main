@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.5"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="Axis Automat General Additional" Name-de="Achse Automat Allgemein Zusatz" Category-en="CAM Automat" Category-de="CAM Automat"/>
+<Parameter ID="128" Name="Limit values: Ignore SW end positions" Value="" Unit=""/>
+<Parameter ID="495" Name="Cam automat: Index for start state" Value="" Unit=""/>
+<Parameter ID="549" Name="Cam automat: Relative start distance of master axis within cam profile" Value="" Unit="Units"/>
+<Parameter ID="936" Name="Cam automat: Parameter ID1 for event" Value="" Unit=""/>
+<Parameter ID="937" Name="Cam automat: Parameter ID2 for event" Value="" Unit=""/>
+<Parameter ID="938" Name="Cam automat: Parameter ID3 for event" Value="" Unit=""/>
+<Parameter ID="939" Name="Cam automat: Parameter ID4 for event" Value="" Unit=""/>
+<Parameter ID="795" Name="Cam automat: Parameter ID for multiplication factor of slave axis" Value="" Unit=""/>
+<Parameter ID="605" Name="Cam automat: Parameter ID for latch value of slave axis" Value="" Unit=""/>
+<Parameter ID="926" Name="Cam automat: Mode for event type ncS_START" Value="" Unit=""/>
+<Parameter ID="920" Name="Cam automat: Control bits for function mode" Value="" Unit=""/>
+<Parameter ID="798" Name="Cam automat: Control bits for message mode" Value="" Unit=""/>
+<Parameter ID="588" Name="Cam automat: Trigger1 delay time" Value="" Unit="us"/>
+<Parameter ID="589" Name="Cam automat: Trigger2 delay time" Value="" Unit="us"/>
+</AcoposParameters>

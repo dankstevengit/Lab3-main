@@ -1,0 +1,5 @@
+[config]
+rule:      MK_RK_mempercent    ,     5,    64,     1, 17002
+rule:      MK_RK_NMERRTAB      ,    10,    10,     1, 17533
+rule:      MK_RK_NUMSS         ,     0,     1,     1, 17520
+rule:      MK_SS_zyklimit8     ,     0,     0,     1, 17031

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.5"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="KTY83-121, temperature range -30..170" Name-de="KTY83-121, Temperaturbereich -30..170" Category-en="Temperature sensor" Category-de="Temperatursensor"/>
+<Parameter ID="64" Name="Temperatursensor: Parameter 1" Value="626.00" Unit="" />
+<Parameter ID="65" Name="Temperatursensor: Parameter 2" Value="2446.00" Unit="" />
+<Parameter ID="66" Name="Temperatursensor: Parameter 3" Value="-30.00" Unit="" />
+<Parameter ID="67" Name="Temperatursensor: Parameter 4" Value="10.82" Unit="" />
+<Parameter ID="68" Name="Temperatursensor: Parameter 5" Value="44.70" Unit="" />
+<Parameter ID="69" Name="Temperatursensor: Parameter 6" Value="74.41" Unit="" />
+<Parameter ID="70" Name="Temperatursensor: Parameter 7" Value="101.26" Unit="" />
+<Parameter ID="71" Name="Temperatursensor: Parameter 8" Value="125.80" Unit="" />
+<Parameter ID="72" Name="Temperatursensor: Parameter 9" Value="148.55" Unit="" />
+<Parameter ID="73" Name="Temperatursensor: Parameter 10" Value="170.00" Unit="" />
+</AcoposParameters>

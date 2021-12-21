@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.7?>
+<Conversion>
+	<Element OldID="can_if[%R]\can_if" NewID="can_if[%R]\if_name"/>
+	<Element OldID="network_init\basis_init_execute" NewID="network_init\ncsw_init_execute"/>
+</Conversion>
+
+

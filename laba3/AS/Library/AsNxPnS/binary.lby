@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="The AsNxPnS library handles access to netX Profinet Slave.">
+  <Files>
+    <File>AsNxPnS.var</File>
+    <File>AsNxPnS.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="runtime" />
+  </Dependencies>
+</Library>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.5"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="Axis Automat Event" Name-de="Achse Automat Ereignis" Category-en="CAM Automat" Category-de="CAM Automat"/>
+<Parameter ID="508" Name="Cam automat: Index of parameter record for one event" Value="" Unit=""/>
+<Parameter ID="513" Name="Cam automat: Event type" Value="" Unit=""/>
+<Parameter ID="514" Name="Cam automat: Event attribute" Value="" Unit=""/>
+<Parameter ID="528" Name="Cam automat: Action at state transition" Value="" Unit=""/>
+<Parameter ID="515" Name="Cam automat: Index next state" Value="" Unit=""/>
+</AcoposParameters>

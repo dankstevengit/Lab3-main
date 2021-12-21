@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.5"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="Virtual Axis Automat General" Name-de="Virtuelle Achse Automat Allgemein" Category-en="CAM Automat" Category-de="CAM Automat"/>
+<Parameter ID="552" Name="VAX Cam automat: Master axis" Value="" Unit=""/>
+<Parameter ID="553" Name="VAX Cam automat: Start position of the master axis" Value="" Unit="Units"/>
+<Parameter ID="554" Name="VAX Cam automat: Start interval of the master axis" Value="" Unit="Units"/>
+<Parameter ID="555" Name="VAX Cam automat: Maximum speed of master axis" Value="" Unit="Units/s"/>
+<Parameter ID="580" Name="VAX Cam automat: Additive master axis" Value="" Unit=""/>
+<Parameter ID="582" Name="VAX Cam automat: Additive slave axis" Value="" Unit=""/>
+</AcoposParameters>

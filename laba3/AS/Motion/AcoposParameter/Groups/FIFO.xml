@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="FIFO" Name-de="FIFO" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="11776" Name="FB0 FIFO Mode" Value="0" Unit=""/>
+<Parameter ID="11784" Name="FB0 FIFO Maximum length" Value="" Unit=""/>
+<Parameter ID="11792" Name="FB0 FIFO Distance for output value2" Value="" Unit=""/>
+<Parameter ID="11800" Name="FB0 FIFO Parameter ID input" Value="" Unit=""/>
+<Parameter ID="11808" Name="FB0 FIFO Parameter ID input event" Value="" Unit=""/>
+<Parameter ID="11816" Name="FB0 FIFO Parameter ID output event" Value="" Unit=""/>
+<Parameter ID="11832" Name="FB0 FIFO Output value I4" Value="" Unit=""/>
+<Parameter ID="11840" Name="FB0 FIFO Output value R4" Value="" Unit=""/>
+<Parameter ID="11848" Name="FB0 FIFO Output value2 I4" Value="" Unit=""/>
+<Parameter ID="11856" Name="FB0 FIFO Output value2 R4" Value="" Unit=""/>
+<Parameter ID="11776" Name="FB0 FIFO Mode" Value="" Unit=""/>
+</AcoposParameters>

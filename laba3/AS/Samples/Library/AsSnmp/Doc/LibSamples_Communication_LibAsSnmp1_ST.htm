@@ -1,0 +1,39 @@
+<HTML>
+ <HEAD>
+  <TITLE>Abfragen und Setzen eines Parameterwerts via SNMP</title>
+  
+<link rel='stylesheet' href='../../../../Help/styles.css' type='text/css'>
+ </head>
+<body>
+
+<h1>Abfrage und Setzen eines Parameterwerts via SNMP</h1>
+
+<p>Dieses Beispiel zeigt, wie ein Parameterwert einer Netzwerkgegenstelle, auf 
+der ein SNMP Agent installiert ist, mittels SNMP abgefragt und auch auf einen 
+neuen Wert gesetzt werden kann.</p>
+
+ <h2>Voraussetzung</h2>
+<p>Dieses Programm kann ohne Änderung mit dem Automation Studio Beispielprogramm 
+&quot;CoffeeMachine&quot; oder einer beliebigen anderen Anwendung getestet werden. </p>
+<h2>Programmname</h2>
+<pre class="SourceCode">snmpRequest</pre>
+<h2>Programmbeschreibung</h2>
+<p>Das Programm wird über die Schrittkettenvariable <b>step</b> gesteuert. Im 
+Schritt step = 1 wird ein Parameterwert - SNMPv2-MIB::sysLocation.0 - via SNMP 
+vom Netzwerkteilnehmer mit der in <b>strHostName</b> angegebenen IP Adresse 
+gelesen. Nach erfolgter Abfrage wird 
+in den Idle-Schritt (<b>step</b> = 0) gewechselt. Wenn die Abfrage erfolgreich 
+war, befindet sich der ausgelesene Wert in der Variable <b>strSysLocation</b>. 
+Ansonsten kann die Fehlerursache in der Variable <b>snmpV1Get_0.status</b> 
+abgelesen werden.</p>
+<p>Im Schritt <b>step</b> = 2 wird der neu zu setzende Wert in <b>
+strNewSysLocation</b> für die SNMP Variable SNMPv2-MIB::sysLocation.0 an den 
+Netzwertteilnehmer via SNMP gesendet. Nach erfolgtem Funktionsblockaufruf 
+wechselt das Schrittschaltwerk in den Idle-Schritt (<b>step</b> = 0). Im 
+Fehlerfall kann die Ursache in der Variable <b>snmpV1Set_0.status</b> abgelesen 
+werden. Ansonsten kann der neu gesetzte Wert im <b>step</b> = 1 Schritt wieder 
+ausgelesen werden.</p>
+<p>&nbsp;</p>
+
+ </body>
+</html>

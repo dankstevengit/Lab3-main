@@ -1,0 +1,7 @@
+                                                                      
+VAR CONSTANT
+    TYPE_SERIAL		: USINT := 0;
+    TYPE_CAN		: USINT := 1;
+    TYPE_ETHERNET	: USINT := 2;    
+END_VAR
+

@@ -1,0 +1,24 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: AsArcnet
+ * File: AsArcnet.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library AsArcnet
+ ********************************************************************)
+                                                                      
+VAR CONSTANT
+	ERR_ARCLIB_BUFLNG 				: UINT 		:= 27905;    (*specified buffer length invalid*)
+	ERR_ARCLIB_DEVICE 				: UINT		:= 27903;    (*specified device invalid*)
+	ERR_ARCLIB_FBASE  				: UINT		:= 27907;    (*internal FBASE error*)
+	ERR_ARCLIB_INIT_UP 				: UINT		:= 27909;    (*init-SP calls not yet supported*)
+	ERR_ARCLIB_INVALID_IDENT 		: UINT		:= 27901;    (*specified identifier invalid*)
+	ERR_ARCLIB_INVALID_NODEID 		: UINT		:= 27908;    (*specified node identifier invalid*)
+	ERR_ARCLIB_INVALID_PARAM 		: UINT		:= 27904;    (*specified parameters invalid*)
+	ERR_ARCLIB_NO_FRAME 			: UINT		:= 27906;    (*no data received*)
+	ERR_ARCLIB_NO_MORE_IDENTS 		: UINT		:= 27902;    (*no more identifiers available*)
+	ERR_ARCLIB_QUEUE 				: UINT		:= 27900;    (*error in asynchronous operation*)
+	ERR_ARCLIB_RECV_BUSY 			: UINT		:= 27910;    (*receiver busy*)
+	ERR_ARCLIB_SEND_ACTIV 			: UINT		:= 27911;    (*sender active*)
+END_VAR

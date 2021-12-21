@@ -1,0 +1,27 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: AsNxDnM
+ * File: AsNxDnM.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library AsNxDnM
+ ********************************************************************)
+                                                                      
+VAR CONSTANT
+	nxdnmERR_INVALID_DEVICE					: UINT	:= 35380;		(*error invalid device*)
+	nxdnmERR_SEND_MESSAGE					: UINT	:= 35381;		(*error send message*)
+	nxdnmERR_TIMEOUT						: UINT	:= 35382;		(*error timeout*)
+	nxdnmERR_DEVICENET_STACK				: UINT	:= 35383;		(*error receive message*)
+	nxdnmERR_PARAMETER						: UINT	:= 35384;		(*error invalid parameter*)
+	nxdnmERR_DATALEN						: UINT	:= 35385;		(*error data length*)
+	
+	nxdnmFAL_MODE_OFFLINE					: UDINT	:= 16#00;		(*fieldbus application layer mode offline*)
+	nxdnmFAL_MODE_STOP						: UDINT	:= 16#40;		(*fieldbus application layer mode stop*)
+	nxdnmFAL_MODE_IDLE						: UDINT	:= 16#80;		(*fieldbus application layer mode idle*)
+	nxdnmFAL_MODE_RUN						: UDINT	:= 16#C0;		(*fieldbus application layer mode run*)
+	
+	nxdnmLIFELIST_OWN_MAC					: USINT	:= 16#FF;		(*responds with own MAC-ID*)
+	nxdnmLIFELIST_MAC						: USINT	:= 16#01;		(*responds with MAC-ID*)
+	nxdnmLIFELIST_NO_MAC					: USINT	:= 16#00;		(*does not response*)
+END_VAR

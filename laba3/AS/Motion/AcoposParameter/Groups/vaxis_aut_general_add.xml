@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.5"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="Virtual Axis Automat General Additional" Name-de="Virtuelle Achse Automat Allgemein Zusatz" Category-en="CAM Automat" Category-de="CAM Automat"/>
+<Parameter ID="799" Name="VAX Limit values: Ignore SW end positions" Value="" Unit=""/>
+<Parameter ID="496" Name="VAX Cam automat: Index for start state" Value="" Unit=""/>
+<Parameter ID="550" Name="VAX Cam automat: Relative start distance of master axis within cam profile" Value="" Unit="Units"/>
+<Parameter ID="940" Name="VAX Cam automat: Parameter ID1 for event" Value="" Unit=""/>
+<Parameter ID="941" Name="VAX Cam automat: Parameter ID2 for event" Value="" Unit=""/>
+<Parameter ID="942" Name="VAX Cam automat: Parameter ID3 for event" Value="" Unit=""/>
+<Parameter ID="943" Name="VAX Cam automat: Parameter ID4 for event" Value="" Unit=""/>
+<Parameter ID="796" Name="VAX Cam automat: Parameter ID for multiplication factor of slave axis" Value="" Unit=""/>
+<Parameter ID="606" Name="VAX Cam automat: Parameter ID for latch value of slave axis" Value="" Unit=""/>
+<Parameter ID="927" Name="VAX Cam automat: Mode for event type ncS_START" Value="" Unit=""/>
+<Parameter ID="921" Name="VAX Cam automat: Control bits for function mode" Value="" Unit=""/>
+<Parameter ID="918" Name="VAX Cam automat: Trigger1 delay time" Value="" Unit="us"/>
+<Parameter ID="919" Name="VAX Cam automat: Trigger2 delay time" Value="" Unit="us"/>
+</AcoposParameters>

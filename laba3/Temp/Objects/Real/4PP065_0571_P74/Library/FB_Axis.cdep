@@ -1,0 +1,5 @@
+$(AS_CPU_PATH)/library/fb_axis.c.o:
+$(AS_PROJECT_PATH)/logical/libraries/library/fb_axis.c
+$(AS_PROJECT_PATH)/as45/as/gnuinst/v4.1.2/i386-elf/include/bur/plctypes.h
+$(AS_PROJECT_PATH)/as45/as/gnuinst/v4.1.2/i386-elf/include/bur/plc.h
+$(AS_TEMP_PATH)/includes/library.h

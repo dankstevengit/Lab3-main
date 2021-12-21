@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="The FB_Lib library is needed to control fieldbus modules.">
+  <Files>
+    <File>FB_lib.fun</File>
+    <File>FB_lib.typ</File>
+    <File>FB_lib.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="runtime" />
+  </Dependencies>
+</Library>

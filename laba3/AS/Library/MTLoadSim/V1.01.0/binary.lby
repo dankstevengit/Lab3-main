@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library Version="1.01.0" xmlns="http://br-automation.co.at/AS/Library" Description="This library contains function blocks for a load simulation on the PLC">
+  <Files>
+    <File>MTLoadSim.fun</File>
+    <File>MTLoadSim.typ</File>
+    <File>MTLoadSim.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="runtime" />
+  </Dependencies>
+</Library>

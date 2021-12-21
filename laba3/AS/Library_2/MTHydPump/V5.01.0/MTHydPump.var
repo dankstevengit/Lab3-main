@@ -1,0 +1,175 @@
+VAR CONSTANT
+	STATE_CYCLIC : USINT := 2;
+	STATE_INITIALIZATION : USINT := 1;
+	STATE_DISABLED : USINT := 0;
+	MAX_WIN_LENGTH : INT := 10000;
+	POWER_ACT : INT := 278;
+	MOTOR_TERMINAL_POWER : INT := 844;
+END_VAR
+(*States MTHydPumpPowerMeter*)
+VAR CONSTANT
+	PROTECTION_STEP_TEMPMODEL_WRITE : UINT := 0; (*Write to motor temperature model*)
+	PROTECTION_STEP_MODEL_MODE_READ : UINT := 1; (*Read out motor temperature model*)
+	PROTECTION_STEP_STOP : UINT := 111; (*Stop function block*)
+	PROTECTION_STEP_START_CYCL_READ : UINT := 30; (*Start cyclic data transfer*)
+	PROTECTION_RECOVER_TEMPMODELL : USINT := 40;
+	PROTECTION_STEP_INITIALIZE_ACP : USINT := 0;
+	PROTECTION_STEP_RUN : UINT := 40; (*Cyclic part*)
+	PROTECTION_STEP_READ_PARIDS : UINT := 0; (*Read drive and motor data*)
+END_VAR
+(*step constants MTHydPumpDriveProtection*)
+VAR CONSTANT
+	PROTECTION_STEP_INIT : USINT := 11;
+	PROTECTION_STEP_ERROR : UINT := 100; (*Error routine*)
+	PROTECTION_STEP_DOWNLOAD_TABLE : UINT := 20; (*Download tables*)
+	PROTECTION_STEP_DISABLED : UINT := 0; (*Error routine*)
+	PROTECTION_STEP_CLC_SC_ACP_TBL : UINT := 10; (*Calculate limitations*)
+END_VAR
+(*internal Constants Protect*)
+VAR CONSTANT
+	PROTECTION_LAST_INDEX_LIM : UINT := 13; (*Number of last index for transfer table*)
+	POWERMETER_STEP_RESET_INT_DATA : UINT := 2;
+	POWERMETER_STEP_INIT_DONE : UINT := 1;
+	POWERMETER_STEP_INITIALIZING : UINT := 0;
+	POWERMETER_STEP_DISABLE_START : UINT := 0;
+	POWERMETER_STEP_DISABLE_FB_BUSY : UINT := 1;
+	POWERMETER_STEP_CYCLIC : UINT := 2;
+	mtHYD_WRN_TEMPMODEL_MODE1 : DINT := -2131750766; (*Warning: Motor temperaure model uses mode 1 for calculations.*)
+END_VAR
+(*Warnings MTHydPumpDriveProtection*)
+VAR CONSTANT
+	mtHYD_WRN_SWITCH_FREQ_INVALID : DINT := -2131750782; (*Warning: The switch frequency is not 5000Hz. The shut-down protection of HDCprotect is not ensured.*)
+	mtHYD_WRN_SPEED_LIM_INVALID : DINT := -2131750800; (*Warning: Speed limitation parameters invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_SET_VALUE_FILTER_INV : DINT := -2131750793; (*Warning: Set pressure filter times invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_SET_PRESSURE_LIM_INV : DINT := -2131750803; (*Warning: Set pressure limitation invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_SENSOR_SOURCE_INVALID : DINT := -2131750805; (*Warning: Sensor source configuration invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_REVERSE_SPEED_LIM_INV : DINT := -2131750794; (*Warning: MaxReversePumpSpeed invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_P_SENSOR_PAR_INVALID : DINT := -2131750804; (*Warning: Sensor parameters invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_P_FILTER_TIME_INVALID : DINT := -2131750799; (*Warning: PressureFilterTime invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_PUMP_HYSTERESIS_INV : DINT := -2131750776; (*Warning: Hysteresis of pump protection is invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_PUMPTYPE_INVALID : DINT := -2131750774; (*Warning: Pumptype is invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_PRESSURE_PID_GAIN_0 : DINT := -2131750798; (*Warning: PressureController.ProportionalGain = 0. The pressure controller is inactive.*)
+END_VAR
+(*warnings MTHydPumpPowerMeter*)
+VAR CONSTANT
+	mtHYD_WRN_POW_MET_PAR_INVALID : DINT := -2131750763;
+	mtHYD_WRN_PID_PAR_INVALID : DINT := -2131750795; (*Warning: PID parameters invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_PAR_SET_INVALID : DINT := -2131750787; (*Warning: SelectPressureControllerParSet invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_OFFSET_TORQUELIM_INV : DINT := -2131750780; (*Warning: Offset of torque limit is invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_OFFSET_SPEED_LIM_INV : DINT := -2131750781; (*Warning: Offset of speed limit is invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_OFFSET_PUMP_T_LIM_INV : DINT := -2131750777; (*Warning: Offset of torque limit of pump protection is invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_OFFSET_MIN_PUMP_SPEED : DINT := -2131750775; (*Warning: Offset of minimum pump speed is invalid. Retaining the last valid configuration.*)
+END_VAR
+(*Errors MTHydPumpController*)
+VAR CONSTANT
+	mtHYD_ERR_MIN_PRESSURE_INVALID : DINT := -1058008976; (*Error: MinSetPressure invalid.*)
+	mtHYD_ERR_LEAKAGE_INVALID : DINT := -1058008975; (*Error: LeakageCompensation invalid.*)
+	mtHYD_ERR_ISQ_FACTOR_LIMIT_INV : DINT := -1058008980; (*Error: LimitISQFactor invalid.*)
+	mtHYD_ERR_HOLDON_PRESSURE_INV : DINT := -1058008971; (*Error: SWO HoldOnPressure invalid.*)
+	mtHYD_ERR_GEAR_RATIO_INVALID : DINT := -1058008981; (*Error: SlaveGearRatio invalid.*)
+	mtHYD_ERR_BIQUAD_PAR_INVALID : DINT := -1058008977; (*Error: Biquad filter parameters invalid.*)
+	mtHYD_ERR_AXIS_INVALID : DINT := -1058008963; (*Error: Error: A null pointer was passed to the input Axis.*)
+	mtHYD_ERR_PID_PAR_INVALID : DINT := -1058008974; (*Error: PID parameters invalid.*)
+	mtHYD_ERR_PAR_SET_INVALID : DINT := -1058008966; (*Error: SelectPressureControllerParSet invalid.*)
+	mtHYD_ERR_P_FILTER_TIME_INVALID : DINT := -1058008978; (*Error: PressureFilterTime invalid.*)
+	mtHYD_ERR_SPEED_LIM_INVALID : DINT := -1058008979; (*Error: Speed limitation parameters invalid.*)
+	mtHYD_ERR_SET_VALUE_FILTER_INV : DINT := -1058008972; (*Error: Set pressure filter times invalid.*)
+	mtHYD_ERR_SET_PRESSURE_LIM_INV : DINT := -1058008982; (*Error: Set pressure limitation invalid.*)
+	mtHYD_ERR_SENSOR_SOURCE_INVALID : DINT := -1058008984; (*Error: Sensor source configuration invalid.*)
+	mtHYD_ERR_REVERSE_SPEED_LIM_INV : DINT := -1058008973; (*Error: MaxReversePumpSpeed invalid.*)
+	mtHYD_ERR_P_SENSOR_PAR_INVALID : DINT := -1058008983; (*Error: Sensor parameters invalid.*)
+	mtHYD_ERR_SWITCHOVER_PAR_INVALID : DINT := -1058008970; (*Error: SwitchOver functionality. Parameters invalid.*)
+	mtHYD_ERR_TRIGGER_PARID_INVALID : DINT := -1058008969; (*Error: SwitchOver functionality. TriggerSourceParID = 0 and EnableSwitchoverByTrigger = TRUE.*)
+	mtHYD_ERR_EXT_SIGNAL_SOURCE_INV : DINT := -1058008965; (*Error: SwitchOver functionality. ExternalSignalSource = 0 and EnableSwitchoverByExtSignal = TRUE.*)
+END_VAR
+(*Warnings MTHydPumpController*)
+VAR CONSTANT
+	mtHYD_WRN_NO_CAVITATION_PROTECT : DINT := -2131750808; (*Warning: No cavitation protection. MaxPumpAcceleration = 0.*)
+	mtHYD_WRN_NOM_TORQUE_INVALID : DINT := -2131750772; (*Warning: Nominal torque is invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_NOM_SPEED_INVALID : DINT := -2131750773; (*Warning: Nominal speed is invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_MOTORTEMP_INVALID : DINT := -2131750765; (*Warning: Motortemperature invalid.*)
+	mtHYD_WRN_MODE_STANDALONE_INV : DINT := -2131750764; (*Warning: Standalone mode invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_MIN_PRESS_PID_GAIN_0 : DINT := -2131750806; (*Warning: MinPressureController.ProportionalGain = 0. The minimum pressure controller is inactive.*)
+	mtHYD_WRN_MIN_PRESSURE_INVALID : DINT := -2131750797; (*Warning: MinSetPressure invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_MAX_TORQUE_INVALID : DINT := -2131750778; (*Warning: Maximum torque is invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_MAX_SPEED_INVALID : DINT := -2131750779; (*Warning: Maximum speed is invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_LEAKAGE_INVALID : DINT := -2131750796; (*Warning: LeakageCompensation invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_ISQ_FACTOR_LIMIT_INV : DINT := -2131750801; (*Warning: LimitISQFactor invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_GEAR_RATIO_INVALID : DINT := -2131750802; (*Warning: SlaveGearRatio invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_CTRL_MODE_INVALID : DINT := -2131750788; (*Warning: ControllerMode invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_CTRL_MODE_IMPOSSIBLE : DINT := -2131750789; (*Warning: ControllerMode impossible.*)
+	mtHYD_WRN_BIQUAD_PAR_INVALID : DINT := -2131750807; (*Warning: Biquad filter parameters invalid.*)
+	mtHYD_WRN_AXIS_INVALID : DINT := -2131750786; (*Warning: A null pointer was passed to the input Axis. Retaining the last valid configuration.*)
+	mtHYD_WRN_ADD_TORQUE_INVALID : DINT := -2131750771; (*Warning: ParID 1483 is unequal zero.*)
+	mtHYD_WRN_ADD_SPEED_INVALID : DINT := -2131750770; (*Warning: ParID 281 is unequal zero.*)
+	mtHYD_WRN_SWITCHOVER_PAR_INVALID : DINT := -2131750790; (*Warning: Error: SwitchOver functionality. Parameters invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_TRIGGER_PARID_INVALID : DINT := -2131750791; (*Warning: SwitchOver functionality. TriggerSourceParID = 0 and EnableSwitchoverByTrigger = TRUE. Retaining the last valid configuration.*)
+	mtHYD_WRN_EXT_SIGNAL_SOURCE_INV : DINT := -2131750792; (*Warning: SwitchOver functionality. ExternalSignalSource = 0 and EnableSwitchoverByExtSignal = TRUE. Retaining the last valid configuration.*)
+	mtHYD_WRN_PUMP_TURNS_NEGATIVE : DINT := -2131750753; (*Pump turns negative for more than 3 seconds. This can cause cavitation !*)
+END_VAR
+(*Errors MTHydPumpSimulationModel*)
+VAR CONSTANT
+	mtHYD_ERR_PUMP_PAR_INVALID : DINT := -1058009177; (*Error: Pump parameters invalid.*)
+	mtHYD_ERR_VALVE_PAR_INVALID : DINT := -1058009178; (*Error: Valve parameters invalid.*)
+	mtHYD_ERR_SYSTEM_PAR_INVALID : DINT := -1058009179; (*Error: System parameters invalid.*)
+	mtHYD_ERR_CYLINDER_PAR_INVALID : DINT := -1058009180; (*Error: Cylinder parameters invalid.*)
+	mtHYD_ERR_START_POS_INVALID : DINT := -1058009175; (*Error: Start position of cylinder is negative.*)
+END_VAR
+(*errors MTHydPumpPowerMeter*)
+VAR CONSTANT
+	mtHYD_ERR_POW_MET_READ_CYC : DINT := -1058008948; (*Error: Read Cyclic Values invalid*)
+	mtHYD_ERR_POW_MET_PRESSURE_NEG : DINT := -1058008950;
+	mtHYD_ERR_POW_MET_PAR_INVALID : DINT := -1058008951;
+	mtHYD_ERR_POW_MET_FILTER : DINT := -1058008946; (*Error: Filter Status invalid*)
+END_VAR
+(*Errors MTHydPumpDriveProtection*)
+VAR CONSTANT
+	mtHYD_ERR_OFFSET_TORQUELIM_INV : DINT := -1058008961; (*Error: Offset of torque limit is invalid.*)
+	mtHYD_ERR_PUMP_HYSTERESIS_INV : DINT := -1058008955; (*Error: Hysteresis of pump protection is invalid.*)
+	mtHYD_ERR_PUMPTYPE_INVALID : DINT := -1058008953; (*Error: Pumptype is invalid.*)
+	mtHYD_ERR_TEMPMODEL_NOT_INIT : DINT := -1058008949; (*Warning: Motor temperature model not initialized.*)
+	mtHYD_ERR_OFFSET_SPEED_LIM_INV : DINT := -1058008962; (*Error: Offset of speed limits is invalid.*)
+	mtHYD_ERR_OFFSET_PUMP_T_LIM_INV : DINT := -1058008956; (*Error: Offset of toruqe limit of pump protection is invalid.*)
+	mtHYD_ERR_OFFSET_MIN_PUMP_SPEED : DINT := -1058008954; (*Error: Offset of minimum pump speed is invalid.*)
+	mtHYD_ERR_NOM_TORQUE_INVALID : DINT := -1058008958; (*Error: Nominal torque is invalid.*)
+	mtHYD_ERR_NOM_SPEED_INVALID : DINT := -1058008957; (*Error: Nominal speed is invalid.*)
+	mtHYD_ERR_LOADMM_NULL_POINTER : DINT := -1058008944; (*Error: Standalone mode is invalid.*)
+	mtHYD_ERR_MOTTEMP_NULL_POINTER : DINT := -1058008945; (*Error: Standalone mode is invalid.*)
+	mtHYD_ERR_MODE_STANDALONE_INV : DINT := -1058008952; (*Error: Standalone mode is invalid.*)
+	mtHYD_ERR_MAX_TORQUE_INVALID : DINT := -1058008960; (*Error: Maximum torque is invalid.*)
+	mtHYD_ERR_MAX_SPEED_INVALID : DINT := -1058008959; (*Error: Maximum speed is invalid.*)
+	CONTROLLER_STEP_RESET_INT_DATA : UINT := 10; (*Reset internal data state.*)
+END_VAR
+(*step constants MTHydPumpController*)
+VAR CONSTANT
+	CONTROLLER_STEP_INIT_UPDATE : UINT := 0; (*Initialization and update state.*)
+	CONTROLLER_STEP_DISABLE_START : UINT := 0; (*Start disable state.*)
+	CONTROLLER_STEP_DISABLE_FB_BUSY : UINT := 5; (*FB still busy state.*)
+	CONTROLLER_STEP_CYCLIC : UINT := 100; (*Cyclic state.*)
+END_VAR
+(*Errors FB MTHydPumpPressureTuning *)
+VAR CONSTANT
+	mtHYD_ERR_TUNING_CONFIG_INVALID : DINT := -1058008947; (*Error: Tuning configuration is invalid.*)
+END_VAR
+(*Warnings FB MTHydPumpPressureTuning *)
+VAR CONSTANT
+	mtHYD_WRN_TUNING_CONFIG_INVALID : DINT := -2131750762; (*Warning: Tuning configuration is invalid. Retaining the last valid configuration.*)
+	mtHYD_WRN_MAX_PRESSURE_REACHED : DINT := -2131750761; (*Warning: Maximum pump pressure is reached. Identification will not be successful.*)
+	mtHYD_WRN_NO_RESONANCE_FOUND : DINT := -2131750760; (*Warning: Notch filter activation is not possible, because no resonance frequency has been found.*)
+	mtHYD_WRN_TUNING_CTRL_CONFIG_INV : DINT := -2131750758; (*Warning: Controller tuning configuration is invalid.*)
+	mtHYD_WRN_SYSTEM_NOT_SETTLED : DINT := -2131750759; (*Warning: System pressure is not in a stable state.*)
+	mtHYD_WRN_TUNING_NOT_POSSIBLE : DINT := -2131750757; (*Warning: Tuning is not possible. Different controller tuning settings should be choosen.*)
+	mtHYD_WRN_IDENTIFICATION_FAILED : DINT := -2131750755; (*Warning: Identification failed.*)
+	mtHYD_WRN_TUNING_TEST_SIGNAL_INV : DINT := -2131750754; (*Warning: Test signal parameters are invalid.*)
+END_VAR
+(*Constants FB MTHydPumpPressureTuning *)
+VAR CONSTANT
+	TUNING_PRESSURE_SETTLING_WINDOW : REAL := 0.5; (*Constant: Pressure window for check if pressure is settled, after getting in operation point.*)
+	TUNING_OP_POINT_PRESSURE_MIN : USINT := 2; (*Constant: Required minimum pressure for operation point.*)
+	TUNING_OVERSHOOT_REQUIRED : REAL := 0.0;
+	TUNING_SWEEP_WAITING_TIME : REAL := 0.0;
+	TUNING_SWEEP_END_FREQUENCY : REAL := 125;
+	TUNING_SWEEP_START_FREQUENCY : REAL := 25;
+	TUNING_NOTCH_FILTER_BANDWIDTH : REAL := 10.0; (*Constant: Bandwidth for compensation filter.*)
+	TUNING_SETTLING_TIME_LIMIT : REAL := 100; (*Constant: Settling time limit in s.*)
+END_VAR

@@ -1,0 +1,7 @@
+[config]
+rule: MK_TK_zyklimit1,		4,		60000,	1, 17027
+rule: MK_TK_zyklimit2,		4,		60000,	1, 17027
+rule: MK_TK_zyklimit3,		4,		60000,	1, 17027
+rule: MK_TK_zyklimit4,		4,		60000,	1, 17027
+rule: MK_RK_SystemTick,		4000,	10000,	1, 17537
+

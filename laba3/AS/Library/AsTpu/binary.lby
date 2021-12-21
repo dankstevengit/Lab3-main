@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library mlns="http://br-automation.co.at/AS/Library" Description="The AsTpu library supports execution of difficult timing tasks without placing load on the BR PLC.">
+  <Files>
+    <File>AsTpu.fun</File>
+  </Files>
+</Library>

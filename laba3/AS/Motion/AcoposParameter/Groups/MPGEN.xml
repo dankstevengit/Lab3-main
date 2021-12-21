@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="MPGEN" Name-de="MPGEN" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="5120" Name="FB0 MPGEN Mode" Value="0" Unit=""/>
+<Parameter ID="5128" Name="FB0 MPGEN Target position" Value="" Unit="Units"/>
+<Parameter ID="5168" Name="FB0 MPGEN Parameter ID of master position" Value="" Unit=""/>
+<Parameter ID="5176" Name="FB0 MPGEN Maximum master speed" Value="" Unit="Units/s"/>
+<Parameter ID="5184" Name="FB0 MPGEN Maximum speed" Value="" Unit="Units/s"/>
+<Parameter ID="5192" Name="FB0 MPGEN Maximum acceleration" Value="" Unit="Units/s"/>
+<Parameter ID="5120" Name="FB0 MPGEN Mode" Value="" Unit=""/>
+</AcoposParameters>

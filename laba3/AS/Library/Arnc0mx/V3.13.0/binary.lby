@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library Version="3.13.0" xmlns="http://br-automation.co.at/AS/Library" Description="Motion Command Library">
+  <Files>
+    <File>arnc0mx.var</File>
+    <File>arnc0mx.typ</File>
+    <File>arnc0mx.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="trf_lib" FromVersion="1.16.0" />
+    <Dependency ObjectName="Arnc0man" FromVersion="3.13.0" ToVersion="3.13.0" />
+  </Dependencies>
+</Library>

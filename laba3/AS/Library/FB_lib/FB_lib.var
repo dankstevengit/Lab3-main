@@ -1,0 +1,36 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: FB_lib
+ * File: FB_lib.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library FB_lib
+ ********************************************************************)
+                                                                      
+VAR CONSTANT
+	FB_ERR_USR_MASTER_IS_STOPPED	: UINT	:= 12190;	(*master not in "RUN" state*)
+	FB_ERR_USR_WRONG_HANDSHAKE	: UINT	:= 12191;		(*not supported handshake mode*)
+	FB_ERR_USR_OUTLEN_TOO_LONG	: UINT	:= 12193;		(*cannot copy so much output data*)
+	FB_ERR_USR_WRONG_DEVIDENT	: UINT	:= 12183;		(*invalid device identifier*)
+	FB_ERR_USR_INLEN_TOO_LONG	: UINT	:= 12192;		(*cannot copy so much input data*)
+	FB_ERR_USR_WRONG_MEMSIZE	: UINT	:= 12186;		(*specified memory size does not match device memory size*)
+	FB_ERR_USR_DEV_MBOX_FULL	: UINT	:= 12180;		(*mailbox full*)
+	FB_ERR_USR_WRONG_MODENR	: UINT	:= 12187;			(*specified mode number does not exist*)
+	FB_ERR_USR_NOFREEIDENT	: UINT	:= 12185;			(*no more available identifier numbers for this device*)
+	FB_host_reserved_flag	: USINT	:= 16;				(*internal constant*)
+	FB_ERR_USR_SLAVE_CONF	: UINT	:= 12189;			(*specified slave not configured*)
+	FB_ERR_USR_INTERNAL	: UINT	:= 12181;				(*internal error*)
+	FB_ERR_USR_DATA_LNG	: UINT	:= 12188;				(*incorrect data length of configuration module*)
+	FB_ERR_USR_BADIDENT	: UINT	:= 12184;				(*incorrect identifier number*)
+	FB_ERR_USR_NOIDENT	: UINT	:= 12182;				(*no identifier number for the device*)
+	FB_STATEACK_FLAG	: USINT	:= 8;					(*internal constant*)
+	FB_NOTREADY_FLAG	: USINT	:= 32;					(*internal constant*)
+	FB_HOSTACK_FLAG	: USINT	:= 1;						(*internal constant*)
+	FB_DEVCOM_FLAG	: USINT	:= 2;						(*internal constant*)
+	MAX_FB_BOARDS	: USINT	:= 8;						(*internal constant*)
+	FB_RESET_FLAG	: USINT	:= 128;						(*internal constant*)
+	FB_PDCOM_FLAG	: USINT	:= 4;						(*internal constant*)
+	FB_INIT_FLAG	: USINT	:= 64;						(*internal constant*)
+	FB_WORKING	: UINT	:= 65535;						(*function block still working*)
+END_VAR

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="The AsMc library provides advanced services for Memcard control.">
+  <Files>
+    <File>AsMc.var</File>
+    <File>AsMc.fun</File>
+  </Files>
+</Library>

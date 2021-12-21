@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="This library can be used to access the various configuration words on series 2003 screw-in modules.">
+  <Files>
+    <File>AsPlkSup.var</File>
+    <File>AsPlkSup.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="powerlnk" />
+    <Dependency ObjectName="runtime" />
+  </Dependencies>
+</Library>

@@ -1,0 +1,40 @@
+﻿Rezeptverwaltung mit Datenbanken
+
+Dieses Beispiel zeigt wie Rezepte in Datenbanken verwaltet werden können und diese mittels AsDB Library verwaltet werden können.
+
+Vorraussetzung
+
+Zur Verwendung dieses Programm wird eine SQL Datenbank benötigt. Unterstützt werden Microsoft SQL und xxx. Bei der Verwendung von xxx muss im Step eCONNECT die Variable ReceipeDBConnect.databaseSystem auf DB_SYSTEM_SYBASE gesetzt werden.
+Die Variablen HOST, DATABASE, TABLE, USERNAME und PASSWORT müssen mit dem Hostnamen des SQL Server, den Namen der Datenbank, gewünschten Tabellennamen, Usernamen und Passwort gesetzt werden.
+
+Programmname
+SQLReceipe
+
+Programmbeschreibung
+
+Das Programm baut auf Kommando eine Verbindung zu einem konfigurierten SQL Server auf. Von diesem wird aus einer Tabelle Rezepte gelistet.
+Diese Rezepte können:
+- geladen
+- gespeichert
+- unter neuem Namen gespeichert
+- gelöscht
+- umbennent
+werden.
+
+Verwendung des Programms
+Mittels der Struktur Command werden dem Programm die Befehle mitgeteilt. Diese sind im Command_enum definiert. Die Befehle mit Übergabeparameter lauten:
+Befehl			Wert	ActReceipe		NewReceipe		
+eCMD_CONNECT	10		-				-				Verbindung zum Server wird aufgebaut
+eCMD_LOAD		20		-				xxx				Rezept xxx wird geladen
+eCMD_SAVE		30		xxx				-				Werte werden in Rezept xxx upgedated
+eCMD_SAVEAS		40		-				xxx				Werte werden in Rezept xxx gespeichert (neuer Eintrag)
+eCMD_DELETE		50		-				xxx				Rezept xxx wird gelöscht
+eCMD_RENAME		60		xxx				yyy				Rezept xxx wird in yyy unbenannt
+eCMD_DISCONNECT	70		-				-				Verbindung zum Server wird getrennt
+
+Der Verbindungsaufbau ist wie folgt:
+- Verbindung zur Datenbank wird aufgebaut
+- Tabelle wird überprüft und bei Bedarf erstellt
+- ist die Tabelle leer, so wird ein Default-Eintrag erstellt
+- die Rezeptnamen werden ausgelesen
+

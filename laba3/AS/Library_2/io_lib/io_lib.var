@@ -1,0 +1,24 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: io_lib
+ * File   : io_lib.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library io_lib
+ ********************************************************************)
+                                                                      
+VAR CONSTANT
+    HWLIST_TYPE_IO2010     : USINT  := 0;		(*2010-IO*)
+    HWLIST_TYPE_IO2005     : USINT  := 1;		(*2005-IO*)
+    HWLIST_TYPE_RIO2010    : USINT  := 2;		(*RIO-2010*)
+    HWLIST_TYPE_RIO2005    : USINT  := 3;		(*RIO-2005*)
+    HWLIST_TYPE_RIO2003    : USINT  := 4;		(*RIO-2003*)
+    HWLIST_TYPE_IO2003     : USINT  := 5;		(*2003-IO*)
+    HWLIST_TYPE_CANIO      : USINT  := 6;		(*2003-CANIO*)
+    HWLIST_TYPE_CPU        : USINT  := 7;		(*PLC CPU*)
+    HWLIST_TYPE_PP         : USINT  := 8;		(*PP system module*)
+    HWLIST_TYPE_SYSTEM     : USINT  := 9;		(*other system module*)
+    HWLIST_TYPE_SYS_SLOT   : USINT  := 10;		(*insert module run from a CPU, PP or system module*)
+    HW_UNDEFINED           : USINT  := 16#FF;	(*undefined*)
+END_VAR

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.5"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="Axis Automat State" Name-de="Achse Automat Zustand" Category-en="CAM Automat" Category-de="CAM Automat"/>
+<Parameter ID="507" Name="Cam automat: Index of parameter record for one state" Value="" Unit=""/>
+<Parameter ID="509" Name="Cam automat: Index of cam profile data for one state" Value="" Unit=""/>
+<Parameter ID="519" Name="Cam automat: Multiplication factor of master axis" Value="" Unit=""/>
+<Parameter ID="520" Name="Cam automat: Multiplication factor of slave axis" Value="" Unit=""/>
+<Parameter ID="521" Name="Cam automat: Initial count of state repetitions for event ncCOUNT" Value="" Unit=""/>
+<Parameter ID="510" Name="Cam automat: Compensation gears mode" Value="" Unit=""/>
+<Parameter ID="511" Name="Cam automat: Compensation distance of master axis" Value="" Unit="Units"/>
+<Parameter ID="512" Name="Cam automat: Compensation distance of slave axis" Value="" Unit="Units"/>
+</AcoposParameters>

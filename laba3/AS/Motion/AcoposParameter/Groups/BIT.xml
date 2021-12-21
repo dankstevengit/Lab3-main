@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="BIT" Name-de="BIT" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="12808" Name="FB0 BIT Operand a1" Value="" Unit=""/>
+<Parameter ID="12816" Name="FB0 BIT Operand a2" Value="" Unit=""/>
+<Parameter ID="12824" Name="FB0 BIT Operand a3" Value="" Unit=""/>
+<Parameter ID="12832" Name="FB0 BIT Operand a4" Value="" Unit=""/>
+<Parameter ID="12840" Name="FB0 BIT Operand a5" Value="" Unit=""/>
+<Parameter ID="12848" Name="FB0 BIT Operand a6" Value="" Unit=""/>
+<Parameter ID="12856" Name="FB0 BIT Operand a7" Value="" Unit=""/>
+<Parameter ID="12864" Name="FB0 BIT Operand a8" Value="" Unit=""/>
+<Parameter ID="12872" Name="FB0 BIT Operand b1" Value="" Unit=""/>
+<Parameter ID="12880" Name="FB0 BIT Operand b2" Value="" Unit=""/>
+<Parameter ID="12888" Name="FB0 BIT Operand b3" Value="" Unit=""/>
+<Parameter ID="12896" Name="FB0 BIT Operand b4" Value="" Unit=""/>
+<Parameter ID="12904" Name="FB0 BIT Operand b5" Value="" Unit=""/>
+<Parameter ID="12912" Name="FB0 BIT Operand b6" Value="" Unit=""/>
+<Parameter ID="12920" Name="FB0 BIT Operand b7" Value="" Unit=""/>
+<Parameter ID="12928" Name="FB0 BIT Operand b8" Value="" Unit=""/>
+<Parameter ID="12936" Name="FB0 BIT Parameter ID of input1" Value="" Unit=""/>
+<Parameter ID="12944" Name="FB0 BIT Parameter ID of input2" Value="" Unit=""/>
+<Parameter ID="12952" Name="FB0 BIT Parameter ID of input3" Value="" Unit=""/>
+<Parameter ID="12960" Name="FB0 BIT Parameter ID of input4" Value="" Unit=""/>
+<Parameter ID="12968" Name="FB0 BIT Parameter ID of input5" Value="" Unit=""/>
+<Parameter ID="12976" Name="FB0 BIT Parameter ID of input6" Value="" Unit=""/>
+<Parameter ID="12984" Name="FB0 BIT Parameter ID of input7" Value="" Unit=""/>
+<Parameter ID="12992" Name="FB0 BIT Parameter ID of input8" Value="" Unit=""/>
+<Parameter ID="12800" Name="FB0 BIT Mode" Value="" Unit=""/>
+</AcoposParameters>

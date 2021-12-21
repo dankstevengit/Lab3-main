@@ -1,0 +1,148 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="de">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Temperaturregelung mit Selbstoptimierung</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+<h1>Temperaturregelung mit Selbstoptimierung</h1>
+<p>Die Temperaturregelung ist in der Automatisierungstechnik weit verbreitet.  </p>
+<p>Um 
+exzellente Regelergebnisse zu erzielen stehen in der Automation Studiobibliothek LoopConR Regler- und Tuningfunktionen speziell für Temperaturstrecken zur 
+Verfügung. Weiters kann das Verhalten von Temperatursystemen nachgebildet 
+werden.</p>
+<p>Dieses Beispiel beinhaltet eine Temperaturregelung inklusive 
+Selbstoptimierung und Simulation der Temperaturstrecke. Die 
+Kühlstellgröße wird pulsweitenmoduliert ausgegeben da dies in der Praxis fast 
+immer der Fall ist.</p>
+<h2>Vorraussetzungen</h2>
+<p>Dieses Beispiel kann mit eine<span lang="de-at">m</span> beliebigen B&amp;R<span lang="de-at"> 
+Zielsystem <a href="#IOMapping">mit</a> oder ohne I/O </span>getestet werden. </p>
+<p class="tips">Es sollte allerdings darauf geachtet werden, dass die Programme 
+im Simulationsmodus mindestens mit einer Zykluszeit von 10ms abgearbeitet 
+werden.</p>
+<h2>Programmname</h2>
+<p class="pSourceCode"><span class="syntax">tempcont<br>
+simulation</span></p>
+<h2>Programmbeschreibung</h2>
+<p>Dieses Beispiel besteht aus zwei getrennten Programmen. Im Task
+<span lang="de-at">&quot;</span><b>tempcont</b><span lang="de-at">&quot;</span> 
+ist die Temperaturregelung, die Selbstoptimierung und die Pulsweitenmodulation 
+realisiert. Im Task <span lang="de-at">&quot;</span><b>simulation</b><span lang="de-at">&quot;</span> wird das Verhalten einer Temperaturstrecke für 
+Heizen und Kühlen simuliert. Es können zwei verschiedene Parametrierungen 
+verwendet werden:</p>
+<ul>
+  <li>Simualtionskonfiguration (SIMULATION_CONFIG)</li>
+  <li>Extruderkonfiguration (EXTRUDER_CONFIG)</li>
+</ul>
+<p><span lang="DE">Folgende Änderungen sind im Programm zur</span><span lang="de-at"> 
+Auswahl der Konfiguration notwendig:</span></p>
+<pre class="SourceCode"><span lang="de-at"><b>tempcont</b></span><b>.st</b>
+
+Zeile <span lang="de-at">15</span>: config := SIMULATION_CONFIG;</pre>
+<h3>Extrudermodus</h3>
+<p>Wird der Extrudermodus gewählt so entspricht das Verhalten der 
+Simulationsstrecke 
+der des B&amp;R Testextruders. Die Tuningeinstellungen werden im Extrudermodus nicht 
+verändert da die Standardwerte für das Tuning vom Funktionsbaustein automatisch 
+für Extruder voreingestellt werden. D.h. wenn der eingegebene Wert gleich Null 
+ist wird dieser durch den für Extruder passenden Standardwert ersetzt (siehe 
+LoopConR Hilfe).</p>
+<h3>Simulationsmodus</h3>
+<p>Beim Simulationsmodus wird das zeitabhängige Verhalten der Temperaturstrecke 
+um den Faktor 100 beschleunigt. Damit das Tuning trotzdem in einer angemessenen 
+Zeit durchläuft müssen gewisse Tuningeinstellungen verschieden von den 
+Standardeinstellungen gewählt werden. Um Schwingungen aufgrund der 
+Pulsweitenmodulation zu verhindern, werden die zeitabhängigen Größen hier 
+ebenfalls um den Faktor 100 verringert.</p>
+<h3>Blockschaltdiagramm</h3>
+
+<p>Folgendes Blockschaltdiagramm stellt den im Beispiel realisierten Regelkreis 
+dar.</p>
+
+<p>
+<br>
+<img border="0" src="images/overview_closed_loop.png" width="1022" height="307"><br>
+&nbsp;</p>
+
+<p>Im Beispielpaket ist die <span lang="de-at">Variablen - Zuordnungsdatei</span>
+<span lang="de-at">&quot;<b>tempCont.vvm1</b>&quot; </span>bereits enthalten. 
+<span lang="de-at">Diese kann durch Copy / Paste aus der Logical View in die 
+Configuration View kopiert werden. </span></p>
+
+<p class="tips"><span lang="de-at">In der Configuration View muss die Endung der 
+Datei von &quot;</span><b>temp<span lang="de-at">C</span>ont.vvm1</b><span lang="de-at">&quot;</span> 
+auf <span lang="de-at">&quot;</span><b>temp<span lang="de-at">C</span>ont.vvm</b><span lang="de-at">&quot;</span>
+<span lang="de-at">geändert werden.</span></p>
+
+<p><br>
+<img border="0" src="Images/LoopConR_Mapping.png" width="882" height="329"></p>
+
+<h4><a name="IOMapping"></a>I/O Mapping wenn <span lang="de-at">I/O Hardware</span> verfügbar</h4>
+
+<p>Dieses Beispiel ist so <span lang="de-at">aufgebaut</span>, dass die Variablen, die mit Hilfe de<span lang="de-at">r</span> 
+Variablen <span lang="de-at">Zuordnung</span> mit der Simulation verbunden sind, auch direkt an I/O Module 
+angeschlossen werden können.  </p>
+
+<p class="tips">Aus diesem Grund ist auch das Skalieren der Werte 
+in beiden Tasks notwendig.</p>
+
+<table class="parameter_tab">
+  <tr>
+    <th class="parameter_tab">Variable</th><th class="parameter_tab">B&amp;R Hardware</th>
+  </tr>
+  <tr>
+    <td class="parameter_tab">IO_yHeat</td>
+    <td class="parameter_tab">X20AO2632</td>
+  </tr>
+  <tr>
+    <td class="parameter_tab">IO_yCool</td>
+    <td class="parameter_tab">X20DO2322</td>
+  </tr>
+  <tr>
+    <td class="parameter_tab">IO_actTemp</td>
+    <td class="parameter_tab">X20AT2402</td>
+  </tr>
+</table>
+<h3>Schrittkette tempcont</h3>
+<p>Durch ändern der Variable <span lang="de-at">&quot;</span><b>mode</b><span lang="de-at">&quot;</span> 
+kann vom <span lang="de-at">&quot;</span><b>WAIT</b><span lang="de-at">&quot;</span> 
+Schritt in einen gewünschten Zustand gewechselt werden. Mit Hilfe der Variable
+<span lang="de-at">&quot;</span><b>config</b><span lang="de-at">&quot;</span> kann die 
+Konfiguration gewechselt werden<span lang="de-at">. In diesem Fall </span>wird 
+der <span lang="de-at">&quot;</span>CONFIG<span lang="de-at">&quot;</span> Schritt 
+ausgeführt und die Schrittkette startet erneut.</p>
+<p><br>
+<img border="0" src="Data/LibLoopConR_StepSequencerTempcont.png" width="539" height="695"></p>
+
+<p>&nbsp;</p>
+
+<h2>Mögliches Testszenario</h2>
+
+<p>In folgendem Test wird zuerst ein Tuning durchgeführt (&lt;mode&gt; = TUNING), 
+anschließend wird in den Regelmodus ( &lt;mode&gt; = CONTROL) umgeschaltet um anhand 
+von Sollwertsprüngen das Regelverhalten zu testen.</p>
+
+<h3>Watchkonfiguration zum Starten des Tests</h3>
+
+<p>
+<img border="0" src="images/possibleWatchConfig.png" width="447" height="296"></p>
+<h3>Trace des Tests</h3>
+<p>Um denn Verlauf des Tunings und die Sollwertsprünge im Nachhinein beurteilen 
+zu können wird der Test mit Hilfe des Trace aufgezeichnet.  </p>
+<p class="tips">Aufzeichnungen 
+sind sehr wichtig da aufgrund dieser die PID-Parameter nachoptimiert bzw. Fehlfunktionen des Tunings festgestellt werden 
+können!</p>
+<p><img border="0" src="images/trace_example.png" width="979" height="634"></p>
+<h3>Tuningergebnisse</h3>
+<p><img border="0" src="images/tuningOutput.png" width="512" height="430"></p>
+
+</body>
+
+</html>

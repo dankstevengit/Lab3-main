@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library Version="1.02.0" xmlns="http://br-automation.co.at/AS/Library" Description="The MTPrintHW library contains function blocks frequently needed when integrating internal and external hardware for printing machines.">
+  <Files>
+    <File>MTPrintHW.var</File>
+    <File>MTPrintHW.typ</File>
+    <File>MTPrintHW.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="Acp10_MC" FromVersion="2.42.2" />
+    <Dependency ObjectName="brsystem" />
+    <Dependency ObjectName="sys_lib" />
+  </Dependencies>
+</Library>

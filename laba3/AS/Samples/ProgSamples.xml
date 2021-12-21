@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Help>
+  <Section Text="Beispiele" File="ProgrammingSamples.htm" Id="dc63c58c-bdee-48ab-8e55-904bd01ed042">
+    <Section Text="Bibliotheken" File="General.htm" Id="bdd6eb57-4d6a-4fbd-a2d7-3e156382f001">
+      <Page Text="Allgemeines" File="LibSamples\LibSamples_Common.htm" Id="6b1bbd81-46dd-439c-a8b4-b30f3ec1896a">
+      </Page>
+      <Page Text="Hinzufügen von Beispielen" File="LibSamples\LibSamples_Add.htm" Id="fe1f2910-fb67-43eb-ba99-033a797afe7d">
+      </Page>
+      <Page Text="IEC 61131-3 Funktionen" File="LibSamples\LibSamples_IEC.htm" Id="89e43ddd-681e-4657-ab13-5e39a013f3ac">
+      </Page>
+      <Section Text="Konfiguration, Systeminfo, Laufzeitkontrolle" File="LibSamples\LibSamples_AR.htm" Id="24d95af0-0776-4724-b3c1-84498233cb31">
+        <Page Text="Anwenderlogbuch erzeugen und auswerten" File="LibSamples\LibSamples_AR_LibAsArLog1_ST.htm" Id="e3ed9557-44bc-4aa0-baf9-34a4be9e0166">
+        </Page>
+        <Page Text="Erzeugen von Profilerdaten" File="LibSamples\LibSamples_AR_LibAsArProf1_ST.htm" Id="724aba24-2f5b-4f89-bfc8-e5744e79716b">
+        </Page>
+        <Page Text="Verwalten von Netzwerkeinstellungen" File="LibSamples\LibSamples_AR_LibAsArCfg1_ST.htm" Id="44d8ee69-c1d9-48fd-840a-ae30c29051b2">
+        </Page>
+        <Page Text="Arbeiten mit Netzwerk - Dateisystemen" File="LibSamples\LibSamples_AR_LibAsArCfg2_ST.htm" Id="e21f6748-dcdf-4a73-ab95-816cd7498e14">
+        </Page>
+        <Page Text="SNTP Server konfigurieren und starten" File="LibSamples\LibSamples_AR_LibAsArCfg3_ST.htm" Id="4621da58-5936-40a1-a96c-ccf9b2e0346e">
+        </Page>
+        <Page Text="SNTP Client konfigurieren und starten" File="LibSamples\LibSamples_AR_LibAsArCfg4_ST.htm" Id="3aa9e0e3-4d0d-47b3-9813-7ac39bc9ad02">
+        </Page>
+        <Page Text="Verwalten von Speicherbereichen" File="LibSamples\LibSamples_AR_LibAsMem1_ST.htm" Id="b9dc47e5-736c-4679-9687-190802d53234">
+        </Page>
+      </Section>
+      <Section Text="Visualisierung" File="LibSamples\LibSamples_Visu.htm" Id="9f2cd942-8001-4c4b-aef8-88a666bed4b0">
+        <Section Text="Alarmsystem" File="LibSamples\LibSamples_VisuAlarmsystem.htm" Id="d5017319-daf3-470b-a7ac-28e15522b119">
+          <Page Text="Auslesen der Alarmhistory" File="LibSamples\LibSamples_Visu_LibVisapi1_ST.htm" Id="1ece19cd-18da-4b4c-9808-9a29c2da173c">
+          </Page>
+        </Section>
+        <Section Text="Grafik und Text" File="LibSamples\LibSamples_VisuGraphic.htm" Id="c1bee2e2-f146-4941-8d89-a9a433c84b9c">
+          <Page Text="Auslesen von Texten einer Textgruppe" File="LibSamples\LibSamples_Visu_LibVisapi3_ST.htm" Id="5530d199-0cac-4740-b769-96cc9c6a21a3">
+          </Page>
+          <Page Text="Laden einer Grafik" File="LibSamples\LibSamples_Visu_LibVisapi5_ST.htm" Id="39082873-5b5a-4814-9012-32ad115ce0fa">
+          </Page>
+          <Page Text="Erzeugen eines Screenshots" File="LibSamples\LibSamples_Visu_LibVcScrSht1_ST.htm" Id="6f8db70b-ba74-4acc-8bec-febcf6b07425">
+          </Page>
+        </Section>
+        <Section Text="Display und Touch" File="LibSamples\LibSamples_VisuDisplay.htm" Id="d56b41fb-4afb-4a1a-88ba-5f573f072a7a">
+          <Page Text="Touch kalibrieren, Kontrast und Helligkeit ändern" File="LibSamples\LibSamples_Visu_LibVisapi4_ST.htm" Id="6fef997e-1ef7-4e2f-ac10-e12d00f3757d">
+          </Page>
+          <Page Text="Loggen von Benutzereingaben" File="LibSamples\LibSamples_Visu_LibVcLib1_ST.htm" Id="6c374116-9a0d-4ba7-b963-7583654c7a8f">
+          </Page>
+        </Section>
+        <Section Text="Remote Visualisierung" File="LibSamples\LibSamples_VisuRemote.htm" Id="966bb3a4-633a-4818-bfee-df1fa775f5a4">
+          <Page Text="MP40 / MP50 Hardware auswerten" File="LibSamples\LibSamples_Visu_LibAsRfbExt2_ST.htm" Id="c976cece-198e-4ae8-af7d-def1eaec4d55">
+          </Page>
+          <Page Text="VNC Fenstertitel ändern" File="LibSamples\LibSamples_Visu_LibAsRfbExt1_ST.htm" Id="1557be3f-9849-4b40-9ca7-0aecdc12da99">
+          </Page>
+        </Section>
+      </Section>
+      <Page Text="Direkter I/O Zugriff" File="LibSamples\LibSamples_IO.htm" Id="5f9de51a-2d33-4175-90f8-5f82dac38978">
+      </Page>
+      <Section Text="Motion Bibliotheken" File="LibSamples\LibSamples_Motion.htm" Id="4b01bec9-e57e-400e-ab52-638ba2aa965e">
+        <Section Text="Motion Control" File="LibSamples\LibSamples_MotionControl.htm" Id="ee4efdf3-6fd8-4dd7-a065-87834b46cc7a">
+          <Page Text="Einzelachsen-Funktionen" File="LibSamples\LibSamples_MotionControl_LibACP10_SingleAx.htm" Id="8204f7e6-e7ff-4b9c-aae8-a40379dafba0">
+          </Page>
+          <Page Text="Einfache Kopplung zweier Achsen" File="LibSamples\LibSamples_MotionControl_LibACP10_Gear.htm" Id="bd6984c4-80b7-4ad3-873d-f1025db353e0">
+          </Page>
+          <Page Text="Kopplung zweier Achsen mit Kurvenscheibenprofil" File="LibSamples\LibSamples_MotionControl_LibACP10_Cam.htm" Id="430cb9bd-3fab-4390-a8c0-92a065b97bc6">
+          </Page>
+          <Section Text="Kurvenscheibenautomat" File="LibSamples\LibSamples_MotionControl_LibACP10_Automat.htm" Id="38cfd44a-c15e-4108-ada0-ca75fd5b07e5">
+            <Section Text="Automatenkonfigurationen" File="LibSamples\LibSamples_MotionControl_LibACP10_AutomatConfig.htm" Id="12e38e60-4b59-4d74-b85e-adaf0c661f44">
+              <Page Text="Etikettierer" File="LibSamples\LibSamples_MotionControl_LibACP10_AutomatConfig_Labler.htm" Id="6e8e7452-c704-4581-8c18-dd8bae9dbf4a">
+              </Page>
+              <Page Text="Fliegende Säge" File="LibSamples\LibSamples_MotionControl_LibACP10_AutomatConfig_FlyingSaw.htm" Id="c86806da-47af-4b5e-9405-e1cbf9e04484">
+              </Page>
+              <Page Text="Querschneider" File="LibSamples\LibSamples_MotionControl_LibACP10_AutomatConfig_CrossCutter.htm" Id="5e66a259-45f0-4ef6-a8fb-62e0431caedc">
+              </Page>
+            </Section>
+          </Section>
+        </Section>
+      </Section>
+      <Section Text="Regelungstechnik und Mathematik" File="LibSamples\LibSamples_PID.htm" Id="15dd68de-c4a5-4273-9511-84b8993f0a04">
+        <Section Text="Regelungstechnik Kompendium" File="LoopContCompendium\Theorie.html" Id="ea685b47-8f5f-4182-9980-a602d2554a13">
+          <Section Text="Regelverhalten" File="LoopContCompendium\LOOPCONTROL\Controller_Behaviour.html" Id="ab52fc2e-e1c4-49dd-a7ad-c4b0bbcf9010">
+            <Page Text="P-Regelverhalten" File="LoopContCompendium\LOOPCONTROL\P_Controller.html" Id="214a8ea3-38a8-4d6b-a4ce-dbf86f603931">
+            </Page>
+            <Page Text="I-Regelverhalten" File="LoopContCompendium\LOOPCONTROL\I_Controller.html" Id="b7a998da-168c-48d4-b344-c249421b51e3">
+            </Page>
+            <Page Text="PI-Regler" File="LoopContCompendium\LOOPCONTROL\PI_Controller.html" Id="bb39d2b1-ecbb-4bc8-9e75-c5095792bdaf">
+            </Page>
+            <Page Text="D-Regelverhalten" File="LoopContCompendium\LOOPCONTROL\D_Controller.html" Id="f0132d4d-af84-4b61-8fd5-ca28603199ee">
+            </Page>
+            <Page Text="Reglereinstellung nach Ziegler,Nichols" File="LoopContCompendium\LOOPCONTROL\Set_Controller.html" Id="716b03f6-3077-4662-8795-a2e3076c2222">
+            </Page>
+          </Section>
+          <Section Text="Dynamische Systeme" File="LoopContCompendium\LOOPCONTROL\Control_Tech.html" Id="b7e36257-6d29-49c0-87b2-a06ddccf05ee">
+            <Section Text="Eigenschaften von dynamischen Systemen" File="LoopContCompendium\LOOPCONTROL\Control_DynProperties.html" Id="639a0865-a6f2-48e8-8c0d-0c9059d5eaae">
+              <Page Text="Zeitinvarianz" File="LoopContCompendium\LOOPCONTROL\Control_DynProperties_Time.html" Id="e4aabde4-7a8f-41f1-bf4b-04e60e9eee95">
+              </Page>
+              <Page Text="Ein- und Mehrgrößensysteme" File="LoopContCompendium\LOOPCONTROL\Control_DynProperties_Systems.html" Id="3bf66633-bca2-43f9-8d64-a00b20083cae">
+              </Page>
+              <Page Text="Stabilität" File="LoopContCompendium\LOOPCONTROL\Control_DynProperties_Stable.html" Id="11c1fda0-31b4-4795-85a3-bb059ff0350b">
+              </Page>
+            </Section>
+            <Page Text="Beispiel: Mechanisch" File="LoopContCompendium\LOOPCONTROL\Control_Sample_Mechanic.html" Id="6cd6ee47-4c06-4aa3-9fc5-8537cdf032bb">
+            </Page>
+            <Page Text="Beispiel: Thermisch" File="LoopContCompendium\LOOPCONTROL\Control_Sample_Thermic.html" Id="0b0f10fd-0452-4601-bd03-a5f2ed8b2b25">
+            </Page>
+            <Section Text="Beschreibungsmethoden" File="LoopContCompendium\LOOPCONTROL\Control_DescriptionMethodes.html" Id="6f63c079-0d52-4aa5-b7db-1eb65fd8f5a1">
+              <Page Text="Beschreibung im Zeitbereich (Zustandsraum)" File="LoopContCompendium\LOOPCONTROL\Control_DescriptionMethodes_Time.html" Id="f06532da-0975-4233-a792-0729905217ab">
+              </Page>
+              <Page Text="Beschreibung im Frequenzbereich (Übertragungsverhalten)" File="LoopContCompendium\LOOPCONTROL\Control_DescriptionMethodes_Freq.html" Id="eb058724-f3d8-4245-8803-16d543d53e7e">
+              </Page>
+            </Section>
+          </Section>
+          <Section Text="Regelstrecken" File="LoopContCompendium\LOOPCONTROL\Control_controlling.html" Id="490e474d-6302-425f-b255-fd0a48366ad9">
+            <Page Text="Modellbildung" File="LoopContCompendium\LOOPCONTROL\Control_controlling_modelling.html" Id="b17fe302-d4b5-490f-af39-a48b44014f70">
+            </Page>
+            <Page Text="Identifikation" File="LoopContCompendium\LOOPCONTROL\Control_controlling_ident.html" Id="e8f9d60f-b026-47db-9d28-8ff1614ea3b3">
+            </Page>
+            <Page Text="Typen von Regelstrecken" File="LoopContCompendium\LOOPCONTROL\Control_controlling_type.html" Id="4df8e3f7-212e-4bab-91d8-89995bb84b50">
+            </Page>
+          </Section>
+          <Section Text="Geschlossener Regelkreis" File="LoopContCompendium\LOOPCONTROL\CloseLoopControl.html" Id="86912b50-969c-4445-a90e-70346184a526">
+            <Page Text="Blockschaltbilder" File="LoopContCompendium\LOOPCONTROL\CloseLoopControl_image.html" Id="9efb1e46-84fe-4a88-86ba-8eec24053ec8">
+            </Page>
+            <Section Text="Standardregelkreis" File="LoopContCompendium\LOOPCONTROL\CloseLoopControl_standard.html" Id="4b798b3d-fe87-4db4-b399-4d2ad48d7315">
+              <Page Text="Übertragungsfunktionen" File="LoopContCompendium\LOOPCONTROL\CloseLoopControl_standard_transfer.html" Id="170c73b9-c799-4a87-8f92-99b461a50568">
+              </Page>
+            </Section>
+            <Section Text="Kenngrößen von Regelungen" File="LoopContCompendium\LOOPCONTROL\CloseLoopControl_Characteristics.html" Id="383f7809-3aef-40df-a4c6-9d2a13622aa6">
+              <Page Text="Kenngrößen im Zeitbereich" File="LoopContCompendium\LOOPCONTROL\CloseLoopControl_Characteristics_Time.html" Id="657f3940-b1a8-412d-a5e4-bce62958fc8a">
+              </Page>
+              <Page Text="Kenngrößen im Frequenzbereich" File="LoopContCompendium\LOOPCONTROL\CloseLoopControl_Characteristics_Freq.html" Id="73c18c00-f5c5-4cd1-9a00-9ef55bacf803">
+              </Page>
+              <Page Text="Zusammenhang zwischen Zeit- und Frequenz Kenngrößen" File="LoopContCompendium\LOOPCONTROL\CloseLoopControl_Characteristics_Time_Freq.html" Id="89523aab-fd7e-4106-8203-5ea6fa45bb94">
+              </Page>
+            </Section>
+          </Section>
+          <Section Text="Regler und Reglereinstellung" File="LoopContCompendium\LOOPCONTROL\Control_Set.html" Id="2d6337c5-c8e3-4746-8aae-1da770bea7fc">
+            <Page Text="PID-Regler" File="LoopContCompendium\LOOPCONTROL\Control_Set_PID.html" Id="826f6c98-1e03-4045-8866-a48e0ecc8aa2">
+            </Page>
+            <Section Text="Reglereinstellung" File="LoopContCompendium\LOOPCONTROL\Control_Setting.html" Id="cb9834f3-d9dc-45ed-9514-759e723b6b6d">
+              <Page Text="nach Chien, Hrones und Reswick" File="LoopContCompendium\LOOPCONTROL\Control_Setting_1.html" Id="49220ff0-2750-411f-8e02-af1eb50cf1eb">
+              </Page>
+              <Page Text="nach Ziegler und Nichols" File="LoopContCompendium\LOOPCONTROL\Control_Setting_2.html" Id="2e8d678d-8ea1-4b06-92fa-31f4acae561a">
+              </Page>
+              <Page Text="Entwurf im Bodediagramm" File="LoopContCompendium\LOOPCONTROL\Control_Setting_3.html" Id="d7382a25-5c4e-409d-b5bf-f10e7acf37b3">
+              </Page>
+            </Section>
+            <Page Text="Autotuning-Verfahren" File="LoopContCompendium\LOOPCONTROL\Control_Autotuning.html" Id="54ae4505-7b75-44d4-8458-408d9f595cdb">
+            </Page>
+          </Section>
+          <Section Text="Ergänzungen" File="LoopContCompendium\LOOPCONTROL\Control_Info.html" Id="ab044c48-24e9-42e5-8dd0-3cf1332e4253">
+            <Page Text="Der Einfluss von Totzeit" File="LoopContCompendium\LOOPCONTROL\Control_Info_DeadBand.html" Id="1bf7c5ff-9501-468c-b096-286692d51de8">
+            </Page>
+            <Page Text="Der Einfluss von Messfehlern" File="LoopContCompendium\LOOPCONTROL\Control_Info_MeasureErrors.html" Id="118faa27-1395-4f70-b884-6921ab33a7fb">
+            </Page>
+            <Section Text="Vermaschte Regelkreise" File="LoopContCompendium\LOOPCONTROL\Control_Info_Mixed.html" Id="818489af-6e5f-4b49-80f7-a14aa9b112b5">
+              <Page Text="Störgrößenaufschaltung" File="LoopContCompendium\LOOPCONTROL\Control_Info_Mixed_1.html" Id="34bc599c-fe10-417e-bc75-fa19f3344e24">
+              </Page>
+              <Page Text="Sollwertvorsteuerung" File="LoopContCompendium\LOOPCONTROL\Control_Info_Mixed_2.html" Id="f9e7ee6f-af79-4cb3-b599-8c7d69a25a85">
+              </Page>
+              <Page Text="Kaskadenregelung" File="LoopContCompendium\LOOPCONTROL\Control_Info_Mixed_3.html" Id="2bc552c0-7c59-47d1-92a0-0e67c7069f3a">
+              </Page>
+            </Section>
+            <Page Text="Vorfilter" File="LoopContCompendium\LOOPCONTROL\Lopp_general_filter.html" Id="5b17d797-d24a-45c4-9779-4eed61148169">
+            </Page>
+            <Page Text="Nichtlinearitäten" File="LoopContCompendium\LOOPCONTROL\Control_Info_NonLinear.html" Id="c87c6567-b1de-46f5-b650-245a9c22785d">
+            </Page>
+            <Page Text="Pulsweitenmodulierte Stellsignale" File="LoopContCompendium\LOOPCONTROL\Control_Info_PWM.html" Id="80be3fa9-68dc-4689-9af1-5897fc100ac5">
+            </Page>
+            <Page Text="Abtastregelkreise" File="LoopContCompendium\LOOPCONTROL\Control_Info_Tast.html" Id="588e03c6-aecd-47d1-9454-57551e2aeeaf">
+            </Page>
+          </Section>
+          <Page Text="Lösung regelungstechnischer Aufgaben" File="LoopContCompendium\LOOPCONTROL\Control_SollutionGuide.html" Id="e5f1dff2-1648-4c4e-811a-3a9cb780bf2d">
+          </Page>
+        </Section>
+        <Section Text="Hydraulikregelung" File="LibSamples\LibSamples_PIDHyd.htm" Id="de858f91-4f36-46b5-afdb-fe6f13a53780">
+          <Page Text="Einfache Positionsregelung" File="LibSamples\LibSamples_PIDHyd_LibAsHydCon1_ST.htm" Id="af22b730-7845-4370-a1d5-dbc56150bd06">
+          </Page>
+          <Page Text="Standard Positionsregler" File="LibSamples\LibSamples_PIDHyd_LibAsHydCon2_ST.htm" Id="4b2901c7-b331-4368-97fc-96c8e3779d3d">
+          </Page>
+          <Page Text="Positonsregler und Zylinderdrucksensoren" File="LibSamples\LibSamples_PIDHyd_LibAsHydCon3_ST.htm" Id="b5b7b768-4d31-4dd7-ac7d-09660a02dbcd">
+          </Page>
+          <Page Text="Kombinierter Positions- und Kraftregler" File="LibSamples\LibSamples_PIDHyd_LibAsHydCon4_ST.htm" Id="993da275-be4a-43be-af06-de677669c437">
+          </Page>
+          <Page Text="Simulationsmodell eines ventilgesteuerten Hydraulikantriebes" File="LibSamples\LibSamples_PIDHyd_CylModel1_C.htm" Id="da5214c8-41e6-4979-8e35-e40add41567d">
+          </Page>
+        </Section>
+        <Section Text="Temperaturregelung" File="LibSamples\LibSamples_PIDTemp.htm" Id="36d69b4a-5548-4dcb-97ae-c81e7032ee54">
+          <Page Text="Temperaturregelung mit Selbstoptimierung" File="LibSamples\LibSamples_PIDTemp_LoopConR_ST.htm" Id="c5e3369e-f9aa-40fd-a2b0-47b40aeffc85">
+          </Page>
+        </Section>
+      </Section>
+      <Section Text="Datenzugriff und Datenablage" File="LibSamples\LibSamples_Data.htm" Id="21e2ec76-ca2e-4dd9-b463-68a2f7b641e8">
+        <Section Text="Datenzugriff" File="LibSamples\LibSamples_DataAccess.htm" Id="f0cdaa6b-9964-40ef-86a3-4b5fe10b6994">
+          <Page Text="Speicherzugriff von unterschiedlichen Taskklassen" File="LibSamples\LibSamples_DataAccess_LibAsSem1_ST.htm" Id="2872195f-e286-419a-9515-28336eac01ef">
+          </Page>
+          <Page Text="Auslesen einer Datei von einem USB Stick" File="LibSamples\LibSamples_DataAccess_LibAsUSB1_ST.htm" Id="f8fe3a79-764b-4598-b88c-b54c2803ded1">
+          </Page>
+        </Section>
+        <Section Text="Datenablage" File="LibSamples\LibSamples_DataStorage.htm" Id="f5daf00f-4120-40e3-9af9-8597d5cc41ea">
+          <Page Text="Datei erstellen und verwalten" File="LibSamples\LibSamples_DataStorage_LibFileIO1_ST.htm" Id="ec8c7bba-75cd-4fc9-896a-e5bd9d56bff2">
+          </Page>
+          <Page Text="Verzeichnisse erstellen und verwalten" File="LibSamples\LibSamples_DataStorage_LibFileIO2_ST.htm" Id="905b2d25-712e-4a0a-ae06-8577d14cb041">
+          </Page>
+          <Page Text="Verzeichnis auslesen und löschen" File="LibSamples\LibSamples_DataStorage_LibFileIO3_ST.htm" Id="cd981ed1-36b0-4583-ad9d-9c07c4c164eb">
+          </Page>
+        </Section>
+      </Section>
+      <Section Text="Kommunikation" File="LibSamples\LibSamples_Communication.htm" Id="22bcae72-7a18-4e53-8151-b973f4b443a6">
+        <Section Text="Ethernet" File="LibSamples\LibSamples_CommEth.htm" Id="426030da-2c58-44ac-9753-554c6ed7aea7">
+          <Page Text="TCP Kommunikation" File="LibSamples\LibSamples_CommEth_LibAsTCP1_ST.htm" Id="4f7855ae-593e-4cb3-9a78-dd15cfbfd107">
+          </Page>
+          <Page Text="UDP Kommunikation" File="LibSamples\LibSamples_CommEth_LibAsUDP1_ST.htm" Id="dc804741-352f-425e-b805-ba6b9ba1ff2a">
+          </Page>
+          <Page Text="Pingen einer Station" File="LibSamples\LibSamples_CommEth_LibAsIcmp1_ST.htm" Id="23e4c0dd-9575-43f3-8af9-77005de9f711">
+          </Page>
+          <Page Text="Email versenden" File="LibSamples\LibSamples_CommEth_LibAsSmtp1_ST.htm" Id="9cc57286-c75a-4cc4-9b5b-c578596e8936">
+          </Page>
+          <Page Text="Netzwerkinformationen auswerten" File="LibSamples\LibSamples_CommEth_LibAsEth1_ST.htm" Id="992dd4a3-ec24-4680-8228-b39e03885125">
+          </Page>
+          <Page Text="IP-Adresse / Hostname ermitteln" File="LibSamples\LibSamples_CommEth_LibAsHost1_ST.htm" Id="7e42dcfa-0678-4da5-b18d-462fa4513f84">
+          </Page>
+          <Page Text="Kommunikation zu CIP Ethernet/IP kompatiblen Scanner-Geräten" File="LibSamples\LibSamples_CommEth_LibAsEthIP1_ST.htm" Id="1e0d2b86-00f7-40e9-be02-65c28e698375">
+          </Page>
+          <Page Text="Lesen und schreiben von Variablen" File="LibSamples\LibSamples_CommEth_LibAsIMA1_ST.htm" Id="df07df4b-242d-4419-95bc-8bb208a25b47">
+          </Page>
+        </Section>
+        <Section Text="POWERLINK" File="LibSamples\LibSamples_CommPWL.htm" Id="dee4d5ad-4821-49c8-aadd-5d8e97d12f29">
+          <Page Text="Zugriff auf einen POWERLINK V2 Knoten" File="LibSamples\LibSamples_CommPWL_LibAsEPL1_ST.htm" Id="2376bff6-3ab4-434c-aa82-969e66eb9294">
+          </Page>
+        </Section>
+        <Section Text="CANopen" File="LibSamples\LibSamples_CommCANopen.htm" Id="74a2466e-60dd-4284-9b6a-3b2ae9d54e1e">
+          <Page Text="Status CanOpen Master überprüfen" File="LibSamples\LibSamples_CommCANopen_LibAsCANopen1_ST.htm" Id="0cbc333e-c55a-461c-af8e-b743f5b17cdd">
+          </Page>
+          <Page Text="CANopen Read / Write Funktionen" File="LibSamples\LibSamples_CommCANopen_LibAsCANopen2_ST.htm" Id="565cf734-41d9-4e5c-8e6d-d11dea072cd1">
+          </Page>
+          <Page Text="Parametrierung von Modulen" File="LibSamples\LibSamples_CommCANopen_LibAsCANopen3_ST.htm" Id="d0a1b22e-e0c6-48b7-b961-261527c43707">
+          </Page>
+          <Page Text="Lesen mit SYNC Telegrammen" File="LibSamples\LibSamples_CommCANopen_LibAsCANopen4_ST.htm" Id="965743ea-2194-48fa-aa92-96ac4dc9cf8d">
+          </Page>
+        </Section>
+        <Section Text="Seriell" File="LibSamples\LibSamples_CommSer.htm" Id="069c5cfd-8e79-4539-8a78-5c973f9d0cb3">
+          <Page Text="Lesen und schreiben von Variablen" File="LibSamples\LibSamples_CommEth_LibAsIMA1_ST.htm" Id="df07df4b-242d-4419-95bc-8bb208a25b47">
+          </Page>
+        </Section>
+        <Section Text="USB" File="LibSamples\LibSamples_CommUSB.htm" Id="690a4595-0b98-4cbf-a46d-e1d721b7ef6b">
+          <Page Text="Auslesen einer Datei von einem USB Stick" File="LibSamples\LibSamples_DataAccess_LibAsUSB1_ST.htm" Id="f8fe3a79-764b-4598-b88c-b54c2803ded1">
+          </Page>
+          <Page Text="Bedienung des 125kHz Transponder 5E9000.29" File="LibSamples\LibSamples_CommUSB_LibAsUSB2_ST.htm" Id="49539c46-0840-41ac-bc0f-783c9d01eb24">
+          </Page>
+          <Page Text="Barcode Reader" File="LibSamples\LibSamples_CommUSB_LibAsUSB3_ST.htm" Id="17435220-d485-4519-bcb5-4c89747f5897">
+          </Page>
+        </Section>
+      </Section>
+    </Section>
+  </Section>
+</Help>

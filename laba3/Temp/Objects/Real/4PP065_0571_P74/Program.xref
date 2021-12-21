@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Crossref Scope="Program" AppMod="">
+  <Vars>
+    <Var Name="Position" Scope="Global" Type="USINT">
+      <File Name="A:/as/Logical/Program/Cyclic.c">
+        <Pos L="10" C="2" A="W" PS=" Ln:10, Col:2" />
+      </File>
+    </Var>
+    <Var Name="AxisX.monitor.s" Scope="Global" Type="ACP10AXIS_typ">
+      <File Name="A:/as/Logical/Program/Cyclic.c">
+        <Pos L="10" C="34" A="R" PS=" Ln:10, Col:34" />
+      </File>
+    </Var>
+  </Vars>
+  <Consts />
+  <Funcs />
+</Crossref>

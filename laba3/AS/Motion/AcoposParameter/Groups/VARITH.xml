@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="VARITH" Name-de="VARITH" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="9216" Name="FB0 VARITH Mode" Value="0" Unit=""/>
+<Parameter ID="9224" Name="FB0 VARITH Dimension" Value="" Unit=""/>
+<Parameter ID="9232" Name="FB0 VARITH Parameter ID of input, element a1" Value="" Unit=""/>
+<Parameter ID="9240" Name="FB0 VARITH Parameter ID of input, element a2" Value="" Unit=""/>
+<Parameter ID="9248" Name="FB0 VARITH Parameter ID of input, element a3" Value="" Unit=""/>
+<Parameter ID="9256" Name="FB0 VARITH Parameter ID of input, element a4" Value="" Unit=""/>
+<Parameter ID="9264" Name="FB0 VARITH Parameter ID of input, element a5" Value="" Unit=""/>
+<Parameter ID="9272" Name="FB0 VARITH Parameter ID of input, element b1" Value="" Unit=""/>
+<Parameter ID="9280" Name="FB0 VARITH Parameter ID of input, element b2" Value="" Unit=""/>
+<Parameter ID="9288" Name="FB0 VARITH Parameter ID of input, element b3" Value="" Unit=""/>
+<Parameter ID="9296" Name="FB0 VARITH Parameter ID of input, element b4" Value="" Unit=""/>
+<Parameter ID="9304" Name="FB0 VARITH Parameter ID of input, element b5" Value="" Unit=""/>
+<Parameter ID="9216" Name="FB0 VARITH Mode" Value="" Unit=""/>
+</AcoposParameters>

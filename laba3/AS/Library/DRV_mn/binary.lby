@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="Using the DRV_mn library you can communicate via the B&amp;R MININET protocol.">
+  <Files>
+    <File>DRV_mn.var</File>
+    <File>DRV_mn.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="dvframe" />
+    <Dependency ObjectName="DataObj" />
+    <Dependency ObjectName="runtime" />
+  </Dependencies>
+</Library>

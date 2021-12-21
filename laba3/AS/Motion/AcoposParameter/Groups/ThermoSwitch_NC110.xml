@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.5"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="Thermo Switch Normally Closed 110" Name-de="Thermoschalter Oeffner 110" Category-en="Temperature sensor" Category-de="Temperatursensor"/>
+<Parameter ID="64" Name="Temperatursensor: Parameter 1" Value="0.00" Unit="" />
+<Parameter ID="65" Name="Temperatursensor: Parameter 2" Value="0.00" Unit="" />
+<Parameter ID="66" Name="Temperatursensor: Parameter 3" Value="110.00" Unit="" />
+<Parameter ID="67" Name="Temperatursensor: Parameter 4" Value="0.00" Unit="" />
+<Parameter ID="68" Name="Temperatursensor: Parameter 5" Value="0.00" Unit="" />
+<Parameter ID="69" Name="Temperatursensor: Parameter 6" Value="0.00" Unit="" />
+<Parameter ID="70" Name="Temperatursensor: Parameter 7" Value="0.00" Unit="" />
+<Parameter ID="71" Name="Temperatursensor: Parameter 8" Value="0.00" Unit="" />
+<Parameter ID="72" Name="Temperatursensor: Parameter 9" Value="0.00" Unit="" />
+<Parameter ID="73" Name="Temperatursensor: Parameter 10" Value="0.00" Unit="" />
+</AcoposParameters>

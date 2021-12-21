@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="EVWR" Name-de="EVWR" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="4640" Name="FB0 EVWR Mode" Value="0" Unit=""/>
+<Parameter ID="4608" Name="FB0 EVWR Parameter ID of event input" Value="" Unit=""/>
+<Parameter ID="4616" Name="FB0 EVWR Parameter ID of input" Value="" Unit=""/>
+<Parameter ID="4624" Name="FB0 EVWR Event level" Value="" Unit=""/>
+<Parameter ID="4632" Name="FB0 EVWR Parameter ID of output value" Value="" Unit=""/>
+<Parameter ID="4640" Name="FB0 EVWR Mode" Value="" Unit=""/>
+</AcoposParameters>

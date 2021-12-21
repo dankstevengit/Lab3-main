@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library Version="1.00.1" xmlns="http://br-automation.co.at/AS/Library" Description="This mechatronics library contains system function blocks.">
+  <Files>
+    <File>MTSystem.fun</File>
+    <File>MTSystem.typ</File>
+    <File>MTSystem.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="brsystem" />
+    <Dependency ObjectName="MTTypes" FromVersion="1.00.0" />
+  </Dependencies>
+</Library>

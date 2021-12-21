@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="VAR" Name-de="VAR" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="4096" Name="FB0 VAR I4 variable0" Value="" Unit=""/>
+<Parameter ID="4104" Name="FB0 VAR I4 variable1" Value="" Unit=""/>
+<Parameter ID="4112" Name="FB0 VAR I4 variable2" Value="" Unit=""/>
+<Parameter ID="4120" Name="FB0 VAR I4 variable3" Value="" Unit=""/>
+<Parameter ID="4128" Name="FB0 VAR R4 variable0" Value="" Unit=""/>
+<Parameter ID="4136" Name="FB0 VAR R4 variable1" Value="" Unit=""/>
+<Parameter ID="4144" Name="FB0 VAR R4 variable2" Value="" Unit=""/>
+<Parameter ID="4152" Name="FB0 VAR R4 variable3" Value="" Unit=""/>
+<Parameter ID="4160" Name="FB0 VAR I2 variable0" Value="" Unit=""/>
+<Parameter ID="4168" Name="FB0 VAR I2 variable1" Value="" Unit=""/>
+<Parameter ID="4176" Name="FB0 VAR I2 variable2" Value="" Unit=""/>
+<Parameter ID="4184" Name="FB0 VAR I2 variable3" Value="" Unit=""/>
+</AcoposParameters>

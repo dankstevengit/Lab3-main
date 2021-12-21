@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library Version="3.13.1" xmlns="http://br-automation.co.at/AS/Library" Description="Add-on library to ACP10_MC for simulation interface">
+  <Files>
+    <File>MC_SimIf.fun</File>
+    <File>MC_SimIf.typ</File>
+    <File>MC_SimIf.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="Acp10_mc" FromVersion="3.13.1" ToVersion="3.13.1" />
+  </Dependencies>
+</Library>

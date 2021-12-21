@@ -1,0 +1,16 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: IOCtrl
+ * File: IOCtrl.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library IOCtrl
+ ********************************************************************)
+                                                                      
+VAR CONSTANT
+	ioERR_CYCLIC_DISABLED	: UINT	:= 21013;	(*cyclic IO handling inactive, IOCTEnableCyclic() required*)
+	ioERR_CYCLIC_ENABLED	: UINT	:= 21012;	(*cyclic IO handling active, IOCTDisableCyclic() required*)
+	ioERR_WRONG_CPU	: UINT	:= 21010;			(*FBK/function not supported on this CPU*)
+	ioERR_LOOPMODE	: UINT	:= 21011;			(*IO handling fixed in LOOP mode (digital modules only)*)
+END_VAR

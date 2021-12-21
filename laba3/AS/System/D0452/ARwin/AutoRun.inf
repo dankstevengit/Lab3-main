@@ -1,0 +1,40 @@
+[autorun]
+open=Install.exe /CD
+icon=Autoplay\br.ico
+
+[Main]
+Home=Autoplay\ARwin_en.html
+Name=Automation Runtime for Windows
+Icon=Autoplay\br.ico
+Sound=
+SizeX=790
+SizeY=565
+DisableSysMenu=0
+
+[Launch_ARwin_StandardSetup_de]
+Command=Setups\Automation Runtime ARwin D4.52.exe
+Params=/L=1031 /InstallType=Standard
+ShowCmd=SW_SHOWNORMAL
+
+[Launch_ARwin_StandardSetup_en]
+Command=Setups\Automation Runtime ARwin D4.52.exe
+Params=/L=1033 /InstallType=Standard
+ShowCmd=SW_SHOWNORMAL
+
+[Launch_ARwin_ExpertSetup_de]
+Command=Setups\Automation Runtime ARwin D4.52.exe
+Params=/L=1031 /InstallType=Expert
+ShowCmd=SW_SHOWNORMAL
+
+[Launch_ARwin_ExpertSetup_en]
+Command=Setups\Automation Runtime ARwin D4.52.exe
+Params=/L=1033 /InstallType=Expert
+ShowCmd=SW_SHOWNORMAL
+
+[Launch_ARwin_CHMHelp_de]
+Command=Help\de\AR010.chm
+ShowCmd=SW_SHOWNORMAL
+
+[Launch_ARwin_CHMHelp_en]
+Command=Help\en\AR010.chm
+ShowCmd=SW_SHOWNORMAL

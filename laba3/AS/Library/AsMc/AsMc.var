@@ -1,0 +1,13 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: AsMc
+ * File: AsMc.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library AsMc
+ ********************************************************************)
+VAR CONSTANT
+	ERR_ASMC_ERASE_ERR	: UINT	:= 29071;		(*error erasing memcard*)
+	ERR_ASMC_ERASE_OK	: UINT	:= 29070;		(*memcard erased*)
+END_VAR

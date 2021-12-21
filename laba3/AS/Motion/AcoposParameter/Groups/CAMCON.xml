@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="CAMCON" Name-de="CAMCON" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="10752" Name="FB0 CAMCON Mode" Value="0" Unit=""/>
+<Parameter ID="10760" Name="FB0 CAMCON Parameter ID of input" Value="" Unit=""/>
+<Parameter ID="10864" Name="FB0 CAMCON Parameter ID start event" Value="" Unit=""/>
+<Parameter ID="10768" Name="FB0 CAMCON Start position" Value="" Unit=""/>
+<Parameter ID="10776" Name="FB0 CAMCON Interval" Value="" Unit=""/>
+<Parameter ID="10784" Name="FB0 CAMCON Delay time to switch output ON" Value="" Unit="s"/>
+<Parameter ID="10792" Name="FB0 CAMCON Delay time to switch output OFF" Value="" Unit="s"/>
+<Parameter ID="10800" Name="FB0 CAMCON Switch delay: Filter time constant" Value="" Unit="s"/>
+<Parameter ID="10808" Name="FB0 CAMCON Hysteresis window" Value="" Unit=""/>
+<Parameter ID="10816" Name="FB0 CAMCON Maximum number of cams" Value="" Unit=""/>
+<Parameter ID="10824" Name="FB0 CAMCON Index of parameter record for one cam" Value="" Unit=""/>
+<Parameter ID="10832" Name="FB0 CAMCON Start position of cam within interval" Value="" Unit=""/>
+<Parameter ID="10840" Name="FB0 CAMCON End position of cam within interval" Value="" Unit=""/>
+<Parameter ID="10848" Name="FB0 CAMCON Output value" Value="" Unit=""/>
+<Parameter ID="10752" Name="FB0 CAMCON Mode" Value="" Unit=""/>
+</AcoposParameters>

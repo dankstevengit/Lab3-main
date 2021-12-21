@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library Version="1.00.3" xmlns="http://br-automation.co.at/AS/Library" Description="This mechatronics library contains function blocks for controlling and simulating winder systems.">
+  <Files>
+    <File>MTWinder.fun</File>
+    <File>MTWinder.typ</File>
+    <File>MTWinder.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="brsystem" />
+    <Dependency ObjectName="sys_lib" />
+    <Dependency ObjectName="MTTypes" FromVersion="1.02.2" />
+    <Dependency ObjectName="AsBrMath" />
+  </Dependencies>
+</Library>

@@ -1,0 +1,13 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: AsPPP
+ * File: AsPPP.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library AsPPP
+ ********************************************************************)
+                                                                      
+VAR CONSTANT
+	pppERR_INVALID_DEVICE				: UINT := 32000;	(*invlalid parent device*)
+END_VAR

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.12?>
+<Parameters>
+    <Parameter ID="EPL_Chained" FromVersion="2.19.0" />
+    <Parameter ID="EPL_PReqDataInPResMN" FromVersion="2.19.0" />
+    <!-- Parameter fuer Framekonfiguration -->
+    <Parameter ID="FunctionModel" FromVersion="2.19.0" />
+    <!-- Definition der Simulationsmodi -->
+    <AcoposSimulation Mode="Off" Name-en="Off" Name-de="Aus" NetIfType="Powerlink" FromVersion="2.24.0" />
+    <AcoposSimulation Mode="Standard" Name-en="Standard" Name-de="Standard" NetIfType="Powerlink" FromVersion="2.24.0" />
+    <AcoposSimulation Mode="Complete" Name-en="Complete" Name-de="Komplett" NetIfType="Powerlink" FromVersion="2.24.0" />
+    <AcoposSimulation Mode="Off" Name-en="Off" Name-de="Aus" NetIfType="SDC" FromVersion="2.26.0" />
+    <AcoposSimulation Mode="Standard" Name-en="Standard" Name-de="Standard" NetIfType="SDC" FromVersion="2.26.0" />
+    <AcoposSimulation Mode="Complete" Name-en="Complete" Name-de="Komplett" NetIfType="SDC" FromVersion="2.26.0" />
+</Parameters>

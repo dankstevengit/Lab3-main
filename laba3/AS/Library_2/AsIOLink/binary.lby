@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="This library communicates with an IO-Link Master">
+  <Files>
+    <File>AsIOLink.fun</File>
+    <File>AsIOLink.typ</File>
+    <File>AsIOLink.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="runtime" />
+    <Dependency ObjectName="AsIOAcc" />
+  </Dependencies>
+</Library>

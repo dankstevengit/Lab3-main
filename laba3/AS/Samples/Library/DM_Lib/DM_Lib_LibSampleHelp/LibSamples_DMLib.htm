@@ -1,0 +1,105 @@
+<HTML>
+ <HEAD>
+<!-- Inserted by TRADOS: --><META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1252">
+  <TITLE>DM_Lib Library</title>
+  
+<link rel='stylesheet' href='../../../../Help/
+styles.css' type='text/css'>
+ </head>
+<body onload="DomcatInitialize()">
+      <!--Glossary-->
+      <script language="javascript" src="../../../../../AS30080/as/Glossary/glossary.js" type="text/javascript"></script>
+      <script language="javascript" src="../../../../../AS30080/as/Domcat/Domcat.js" type="text/javascript"></script>
+      <!--/Glossary-->
+<h1>DM_Lib Library Sample</h1>
+ <p>The sample provides a quick and easy solution to using the DM_lib library to store data in the Application Flash PROM.</p>
+ <p>The sample has the capability to free memory, clear memory, and store the data.</p>
+ <p>These capabilities are handled by the use of the DMxfree, DMxclear, and DMxstore function blocks.</p>
+ <p>All interactions with the function blocks are done through a variable of the data type DMLib_typ.  This data type will be explained later in the help file.</p>
+<p class="tips">Multiple instances of the DM_Lib Library sample can be used in an application. The program name of the extra samples must be changed to prevent a name collision.</p>
+<p class="tips">Edit the CFGDMLIB data object to change the number of available memory blocks.</p>
+<h2>Requirements</h2>
+<p>The sample can be used with the following configurations:</p>
+<table class="parameter_tab">
+  <tr>
+    <th class="parameter_tab">Supported Platform</th><th class="parameter_tab">Operating System Requirements</th>
+  </tr>
+  <tr>
+    <td class="parameter_tab">SGC CPU</td>
+    <td class="parameter_tab">At least V1.04</td>
+  </tr>
+  <tr>
+    <td class="parameter_tab">SG3 CPU</td>
+    <td class="parameter_tab">At least V1.90</td>
+  </tr>
+</table>
+<h2>Program name(s)</h2>
+<pre class="SourceCode">DMLib_ST, DMLib_C, DMLib_LD</pre>
+<h2>Program description</h2>
+<p>The program accepts commands to perform actions through the use of function blocks.  The commands are cleared after they have been processed.</p>
+<p class="tips">The functions are described with comments in the source code.</p>
+<h3>Program Flow Chart</h3>
+<p><img border="0" src="Data/DmLibFlow.png"></p>
+<p>&nbsp;</p>
+
+<h3>DMLib_typ Description</h3>
+<p>A variable called DMLib_0 of type DMLib_typ is used to accept commands and store the parameters needed to interact with the DM_Lib function blocks. Below is the description of this data type.</p>
+<table class="parameter_tab">
+  <tr>
+    <th class="parameter_tab">Element Name</th>
+    <th class="parameter_tab">Type</th><th class="parameter_tab">Description</th>
+  </tr>
+  <tr>
+    <td class="parameter_tab">DMLib_0.Commands</td>
+    <td class="parameter_tab">DMLib_Command_typ</td>
+    <td class="parameter_tab">Commands for the code to perform various actions.</td>
+  </tr>
+  <tr>
+    <td class="parameter_tab">DMLib_0.StoreParameters</td>
+    <td class="parameter_tab">DMLib_StoreParam_typ</td>
+    <td class="parameter_tab">Parameters needed to store the data.</td>
+  </tr>
+  <tr>
+    <td class="parameter_tab">DMLib_0.Status</td>
+    <td class="parameter_tab">UINT</td>
+    <td class="parameter_tab">Status returned by the last command.</td>
+  </tr>  
+  <tr>
+    <td class="parameter_tab">DMLib_0.BlockNumber</td>
+    <td class="parameter_tab">USINT</td>
+    <td class="parameter_tab">Memory block number to perform the command on.</td>
+  </tr>        
+</table>
+<p>&nbsp;</p>
+
+<H4>Program Commands</H4>
+<table class="parameter_tab">
+  <tr>
+    <th class="parameter_tab">Function</th>
+    <th class="parameter_tab">Command</th>
+    <th class="parameter_tab">Value</th>
+    <th class="parameter_tab">Description</th>
+  </tr>
+  <tr>
+    <td class="parameter_tab">Free Memory</td>
+    <td class="parameter_tab">DMLib_0.Commands.Free</td>
+    <td class="parameter_tab">1</td>
+    <td class="parameter_tab">The memory block specified will be freed for use.</td>
+  </tr>
+  <tr>
+    <td class="parameter_tab">Store the data</td>
+    <td class="parameter_tab">DMLib_0.Commands.Store</td>
+    <td class="parameter_tab">1</td>
+    <td class="parameter_tab">The data will be stored to the specified memory block.</td>
+  </tr>  
+  <tr>
+    <td class="parameter_tab">Clear Memory</td>
+    <td class="parameter_tab">DMLib_0.Commands.Clear</td>
+    <td class="parameter_tab">1</td>
+    <td class="parameter_tab">The memory given by the block number is cleared of data.</td>
+  </tr>  
+              
+</table>
+
+ </body>
+</html>

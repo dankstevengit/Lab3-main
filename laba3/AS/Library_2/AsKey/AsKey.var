@@ -1,0 +1,16 @@
+                                                                      
+VAR CONSTANT
+	KEY_WEBSERVER		: UDINT	:= 10003;         (*webserver key type*)
+	KEY_BR_IPC			: UDINT	:= 10000;         (*BR_IPC key type*)
+	KEY_ARNC0			: UDINT	:= 10001;         (*ARNC0 key type*)
+	KEY_AR106			: UDINT	:= 106;           (*AR106 key type*)
+	KEY_AR105			: UDINT	:= 105;           (*AR105 key type*)
+	KEY_AR102			: UDINT	:= 102;           (*AR102 key type*)
+	KEY_AR010			: UDINT	:= 10;            (*AR010 key type*)
+	KEY_AR000			: UDINT	:= 0;             (*AR000 key type*)
+	KEY_AC14x			: UDINT	:= 140;           (*AC14x key type*)
+	KEY_PVI				: UDINT	:= 10002;         (*PVI key type*)
+	
+	KEYERR_INVALID_PARAMETER	:UDINT := 33200;	(*invalid parameter*)
+	KEYERR_BUFFER_SIZE			:UDINT := 33201;	(*incorrect buffer size*)
+END_VAR

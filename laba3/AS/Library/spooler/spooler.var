@@ -1,0 +1,41 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: spooler
+ * File: spooler.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library spooler
+ ********************************************************************)
+                                                                      
+VAR CONSTANT
+	spERR_SPF_RESET		: UINT	:= 6699;
+	spERR_SPOOL_IOIMAGE	: UINT	:= 6670;
+	spERR_SPOOLER_WORKING	: UINT	:= 6666;
+	spERR_LONG_IRBOOT	: UINT	:= 6662;
+	spERR_NOMORE_SPOOL	: UINT	:= 6660;
+	spERR_SSP_SLERROR	: UINT	:= 6657;
+	spERR_SSP_SLREADY	: UINT	:= 6655;
+	spERR_SSP_NORESPONSE	: UINT	:= 6650;
+	spERR_SPOOL_SLAVE_NO	: UINT	:= 6641;
+	spERR_SPOOL_MASTER_NO	: UINT	:= 6640;
+	spERR_SPOOL_QUEUE	: UINT	:= 6638;
+	spERR_SPOOL_MODULADR	: UINT	:= 6637;
+	spERR_SPOOL_NOMORE_READ	: UINT	:= 6635;
+	spERR_SPOOL_MAX_INIT	: UINT	:= 6632;
+	spERR_SPOOL_RIOTIMEOUT	: UINT	:= 6631;
+	spERR_SPOOL_REMOTE_ADR	: UINT	:= 6629;
+	spERR_SPOOL_SYSBUS_ADR	: UINT	:= 6628;
+	spERR_SPOOL_IOTYP	: UINT	:= 6627;
+	spERR_MSP_NOTIMPL	: UINT	:= 6610;
+	spIO_TYPE_2005_IO	: USINT	:= 1;
+	spIO_TYPE_2005_RIO	: USINT	:= 3;
+	spIO_TYPE_2010_IO	: USINT	:= 0;
+	spIO_TYPE_2010_RIO	: USINT	:= 2;
+	spMASTER_NO_BASIS	: USINT	:= 1;
+	spSLAVE_NO_BASIS	: USINT	:= 0;
+	spSLAVE_NO_EXP1	: USINT	:= 1;
+	spSLAVE_NO_EXP2	: USINT	:= 2;
+	spSLAVE_NO_EXP3	: USINT	:= 3;
+	spSLAVE_NO_EXP4	: USINT	:= 4;
+END_VAR

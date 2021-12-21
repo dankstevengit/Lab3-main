@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="CMP" Name-de="CMP" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="6656" Name="FB0 CMP parameter ID of input" Value="" Unit=""/>
+<Parameter ID="6664" Name="FB0 CMP threshold" Value="" Unit=""/>
+<Parameter ID="6672" Name="FB0 CMP window" Value="" Unit=""/>
+<Parameter ID="6680" Name="FB0 CMP hysteresis window" Value="" Unit=""/>
+<Parameter ID="6688" Name="FB0 CMP mode" Value="" Unit=""/>
+</AcoposParameters>

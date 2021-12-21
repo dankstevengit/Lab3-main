@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library Type="ReAction" SubType="IO" xmlns="http://br-automation.co.at/AS/Library" Description="This library contains functions for reACTION IO modules.">
+  <Files>
+    <File>AsIORTI.fun</File>
+    <File>AsIORTI.typ</File>
+    <File>AsIORTI.var</File>
+  </Files>
+</Library>

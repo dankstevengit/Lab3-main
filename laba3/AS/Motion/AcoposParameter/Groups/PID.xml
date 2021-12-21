@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="PID" Name-de="PID" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="7680" Name="FB0 PID parameter ID of input" Value="" Unit=""/>
+<Parameter ID="7688" Name="FB0 PID proportional amplification factor" Value="" Unit=""/>
+<Parameter ID="7696" Name="FB0 PID integral action time" Value="" Unit="s"/>
+<Parameter ID="7704" Name="FB0 PID maximum integral action" Value="" Unit=""/>
+<Parameter ID="7712" Name="FB0 PID derivative action time" Value="" Unit="s"/>
+<Parameter ID="7720" Name="FB0 PID time delay constant" Value="" Unit="s"/>
+<Parameter ID="7736" Name="FB0 PID parameter ID of enable input" Value="" Unit=""/>
+</AcoposParameters>

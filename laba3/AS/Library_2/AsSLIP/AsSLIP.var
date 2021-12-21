@@ -1,0 +1,4 @@
+                                                                      
+VAR CONSTANT
+	slipERR_INVALID_DEVICE				: UINT := 31950;	(*invlalid parent device*)
+END_VAR

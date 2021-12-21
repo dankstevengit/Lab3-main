@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.5"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="8BVR0440H000.100-2" Name-de="8BVR0440H000.100-2" Category-en="Choke" Category-de="Drossel"/>
+<Parameter ID="30" Name="Motor: Type" Value="2" Unit="" />
+<Parameter ID="31" Name="Motor: Software compatibility" Value="0x0203" Unit="" />
+<Parameter ID="46" Name="Motor: Winding connection" Value="1" Unit="" />
+<Parameter ID="47" Name="Motor: Number of pole-pairs" Value="1" Unit="" />
+<Parameter ID="42" Name="Motor holding brake: Rated current" Value="1.0" Unit="" />
+<Parameter ID="43" Name="Motor holding brake: Rated torque" Value="0" Unit="" />
+<Parameter ID="44" Name="Motor holding brake: Engaging delay" Value="0" Unit="" />
+<Parameter ID="45" Name="Motor holding brake: Release delay" Value="0" Unit="" />
+<Parameter ID="64" Name="Temperature sensor: Parameter 1" Value="3000.0" Unit="" />
+<Parameter ID="65" Name="Temperature sensor: Parameter 2" Value="1000.0" Unit="" />
+<Parameter ID="66" Name="Temperature sensor: Parameter 3" Value="155.0" Unit="" />
+<Parameter ID="67" Name="Temperature sensor: Parameter 4" Value="0" Unit="" />
+<Parameter ID="68" Name="Temperature sensor: Parameter 5" Value="0" Unit="" />
+<Parameter ID="69" Name="Temperature sensor: Parameter 6" Value="0" Unit="" />
+<Parameter ID="70" Name="Temperature sensor: Parameter 7" Value="0" Unit="" />
+<Parameter ID="71" Name="Temperature sensor: Parameter 8" Value="0" Unit="" />
+<Parameter ID="72" Name="Temperature sensor: Parameter 9" Value="0" Unit="" />
+<Parameter ID="73" Name="Temperature sensor: Parameter 10" Value="0" Unit="" />
+<Parameter ID="48" Name="Motor: Rated voltage" Value="0" Unit="" />
+<Parameter ID="49" Name="Motor: Voltage constant" Value="0" Unit="" />
+<Parameter ID="50" Name="Motor: Rated speed" Value="3600" Unit="" />
+<Parameter ID="51" Name="Motor: Maximum speed" Value="6000" Unit="" />
+<Parameter ID="52" Name="Motor: Stall torque" Value="46.2" Unit="" />
+<Parameter ID="53" Name="Motor: Rated torque" Value="46.2" Unit="" />
+<Parameter ID="54" Name="Motor: Peak torque" Value="91" Unit="" />
+<Parameter ID="55" Name="Motor: Torque constant" Value="1.0" Unit="" />
+<Parameter ID="56" Name="Motor: Stall current" Value="46.2" Unit="" />
+<Parameter ID="57" Name="Motor: Rated current" Value="46.2" Unit="" />
+<Parameter ID="58" Name="Motor: Peak current" Value="91" Unit="" />
+<Parameter ID="59" Name="Motor: Line cross section" Value="14.73" Unit="" />
+<Parameter ID="60" Name="Motor: Stator resistance" Value="0.016" Unit="" />
+<Parameter ID="61" Name="Motor: Stator inductance" Value="0.001" Unit="" />
+<Parameter ID="62" Name="Motor: Moment of inertia" Value="0" Unit="" />
+<Parameter ID="63" Name="Motor: Commutation offset" Value="0" Unit="" />
+<Parameter ID="849" Name="Motor: Thermal time constant" Value="1.0" Unit="" />
+<Parameter ID="74" Name="Temperature sensor: Limit temperature" Value="155.0" Unit="" />
+<Parameter ID="90" Name="Motor holding brake: Mode" Value="13" Unit="" />
+</AcoposParameters>

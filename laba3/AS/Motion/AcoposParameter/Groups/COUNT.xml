@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="COUNT" Name-de="COUNT" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="13824" Name="FB0 COUNT: Mode" Value="0" Unit=""/>
+<Parameter ID="13904" Name="FB0 COUNT: Parameter ID of enable input" Unit=""/>
+<Parameter ID="13832" Name="FB0 COUNT: Parameter ID of event input1" Unit=""/>
+<Parameter ID="13840" Name="FB0 COUNT: Parameter ID of event input2" Unit=""/>
+<Parameter ID="13848" Name="FB0 COUNT: Parameter ID trigger input to set counter value" Unit=""/>
+<Parameter ID="13856" Name="FB0 COUNT: Value to set counter" Unit=""/>
+<Parameter ID="13864" Name="FB0 COUNT: Maximum counter value" Unit=""/>
+<Parameter ID="13872" Name="FB0 COUNT: Comparator compare value" Unit=""/>
+<Parameter ID="13880" Name="FB0 COUNT: Result value" Unit=""/>
+<Parameter ID="13824" Name="FB0 COUNT: Mode" Unit=""/>
+</AcoposParameters>

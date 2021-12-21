@@ -1,0 +1,27 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: MTPrintHW
+ * File: MTPrintHW.var
+ * Author: B&R
+ ********************************************************************
+ * Constants of library MTPrintHW
+ ********************************************************************)
+VAR CONSTANT
+	mtPRN_ERR_CYCLIC_READ : DINT := -1058006184; (*Error: MC_Cyclic_Read *)
+	mtPRN_ERR_MEMORY : DINT := -1058006183; (*Error: An error occurred during memory allocation.*)
+	mtPRN_ERR_IMAGE_LENGTH : DINT := -1058006182; (*Error: Image length invalid*)
+	mtPRN_ERR_IMAGE_OFFSET : DINT := -1058006181; (*Error: Image offset invalid.*)
+	mtPRN_ERR_LESS_POSITION : DINT := -1058006180; (*Error: Not enough position values.*)
+	mtPRN_ERR_PARAMETER_INVALID : DINT := -1058006179; (*Error: One or more parameters higher or equal than one period.*)
+	mtPRN_ERR_WIDTH_INVALID : DINT := -1058006178; (*Error: Defined print mark width invalid.*)
+	mtPRN_ERR_WINDOW_INVALID : DINT := -1058006177; (*Error: Definded expection window invalid.*)
+	mtPRN_ERR_NO_PERIOD : DINT := -1058006176; (*Error: Axis is not periodic.*)
+	mtPRN_ERR_SENSOR_DELAY : DINT := -1058006175; (*Error: Sensor delay less than 0.*)
+	mtPRN_WRN_IMAGE_LENGTH : DINT := -2131748008; (*Warning: Image length invalid*)
+	mtPRN_WRN_IMAGE_OFFSET : DINT := -2131748007; (*Warning: Image offset invalid.*)
+	mtPRN_WRN_WIDTH_INVALID : DINT := -2131748006; (*Warning: Defined print mark width invalid - kept last valid values.*)
+	mtPRN_WRN_WINDOW_INVALID : DINT := -2131748005; (*Warning: Definded expection window invalid - kept last valid values.*)
+	mtPRN_WRN_BUFFER_FULL : DINT := -2131748004; (*Warning: Internal buffer is full.*)
+	mtPRN_WRN_SENSOR_DELAY : DINT := -2131748003; (*Warning: Sensor delay less than 0 - kept last valid values.*)
+END_VAR

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="The IOConfig library allows users to execute I/O shovel instructions. This library is used specifically for configuring 2003 I/Os.">
+  <Files>
+    <File>IOConfig.typ</File>
+    <File>IOConfig.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="io_lib" />
+    <Dependency ObjectName="runtime" />
+  </Dependencies>
+</Library>

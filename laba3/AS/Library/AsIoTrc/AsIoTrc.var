@@ -1,0 +1,13 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: AsIoTrc
+ * File: AsIoTrc.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library AsIoTrc 
+ ********************************************************************)
+                                                                      
+VAR CONSTANT
+	asiotrcERR_SIO	: UINT	:= 32071;		(*general read error of serialized I/O resource*)
+END_VAR

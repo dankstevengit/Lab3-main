@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.5"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="Axis Automat General" Name-de="Achse Automat Allgemein" Category-en="CAM Automat" Category-de="CAM Automat"/>
+<Parameter ID="503" Name="Cam automat: Master axis" Value="" Unit=""/>
+<Parameter ID="504" Name="Cam automat: Start position of the master axis" Value="" Unit="Units"/>
+<Parameter ID="505" Name="Cam automat: Start interval of the master axis" Value="" Unit="Units"/>
+<Parameter ID="506" Name="Cam automat: Maximum speed of master axis" Value="" Unit="Units/s"/>
+<Parameter ID="579" Name="Cam automat: Additive master axis" Value="" Unit=""/>
+<Parameter ID="581" Name="Cam automat: Additive slave axis" Value="" Unit=""/>
+</AcoposParameters>

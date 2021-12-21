@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library Version="1.00.2" xmlns="http://br-automation.co.at/AS/Library" Description="This mechatronics library contains function blocks which could be used for PID - tuning.">
+  <Files>
+    <File>MTPATune.fun</File>
+    <File>MTPATune.typ</File>
+    <File>MTPATune.var</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="sys_lib" />
+    <Dependency ObjectName="brsystem" />
+    <Dependency ObjectName="astime" />
+  </Dependencies>
+</Library>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.5"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="SDC Stepper Motor" Name-de="SDC Stepper Motor" Category-en="SDC" Category-de="SDC"/>
+<Parameter ID="109" Name="Encoder1: Encoder scaling: increments per SCALE_ENCOD_MOTOR_REV motor revolutions" Value="51200" Unit=""/>
+<Parameter ID="64232" Name="Stepper Motor: Step scaling: Steps per motor revolution" Value="51200" Unit=""/>
+<Parameter ID="64233" Name="Stepper Motor: Load scaling: Units per SM_SCALE_LOAD_MOTREV motor revolutions" Value="1000" Unit="Units"/>
+<Parameter ID="64234" Name="Stepper Motor: Load scaling: Motor revolutions" Value="1" Unit=""/>
+</AcoposParameters>

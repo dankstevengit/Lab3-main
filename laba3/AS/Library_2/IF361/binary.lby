@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>IF361.typ</File>
+    <File>IF361.fun</File>
+    <File>IF361.var</File>
+  </Files>
+</Library>

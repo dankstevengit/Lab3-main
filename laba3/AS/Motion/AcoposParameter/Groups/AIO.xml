@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.3"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="AIO" Name-de="AIO" FB="0..7" Category-en="SPT" Category-de="SPT"/>
+<Parameter ID="6160" Name="FB0 AIO channel 1: Comparator threshold pointer parameter" Value="" Unit=""/>
+<Parameter ID="6168" Name="FB0 AIO channel 2: Comparator threshold pointer parameter" Value="" Unit=""/>
+<Parameter ID="6176" Name="FB0 AIO channel 1: Comparator filter time" Value="" Unit="s"/>
+<Parameter ID="6184" Name="FB0 AIO channel 2: Comparator filter time" Value="" Unit="s"/>
+<Parameter ID="6224" Name="FB0 AIO channel 1: Comparator mode" Value="" Unit=""/>
+<Parameter ID="6232" Name="FB0 AIO channel 2: Comparator mode" Value="" Unit=""/>
+<Parameter ID="6240" Name="FB0 AIO channel 1: Comparator extremum (minimum, maximum)" Value="" Unit=""/>
+<Parameter ID="6248" Name="FB0 AIO channel 2: Comparator extremum (minimum, maximum)" Value="" Unit=""/>
+</AcoposParameters>

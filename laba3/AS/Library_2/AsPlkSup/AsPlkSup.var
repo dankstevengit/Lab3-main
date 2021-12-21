@@ -1,0 +1,17 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: AsPlkSup
+ * File: AsPlkSup.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library AsPlkSup
+ ********************************************************************)
+                                                                      
+VAR CONSTANT
+	ERR_PLSUP_IO_NOT_EXIST	: UINT	:= 20949;        (*2003 I/O module not present*)
+	PLSUP_BUS_MODE_ASYNC	: BOOL	:= FALSE;        (*constant for asynchronous mode*)
+	ERR_PLSUP_IO_REMOVED	: UINT	:= 20948;        (*addressed 2003 module removed*)
+	PLSUP_BUS_MODE_SYNC	: BOOL	:= TRUE;             (*constant for synchronous mode*)
+	ERR_PLSUP_TIMEOUT	: UINT	:= 20947;            (*no response from 2003 module*)
+END_VAR

@@ -1,0 +1,108 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="de">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>New Page 1</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+<h1>Temperaturregelung</h1>
+<p>Die Temperaturregelung ist in der Automatisierungstechnik weit verbreitet. Um 
+exzellente Regelergebnisse zu erzielen stehen in der Automation Studiobibliothek 
+LoopConR Regler- und Tuningfunktionen speziell für Temperaturstrecken zur 
+Verfügung. Weiters kann das Verhalten von Temperatursystemen nachgebildet 
+werden.</p>
+<p>Dieses Beispiel beinhaltet eine Temperaturregelung inklusive 
+Selbstoptimierung und Simulation der Temperaturstrecke. Die 
+Kühlstellgröße wird pulsweitenmoduliert ausgegeben da dies in der Praxis fast 
+immer der Fall ist.</p>
+<h2>Vorraussetzungen</h2>
+<p>Dieses Beispiel kann mit einer beliebigen B&amp;R-SPS getestet werden. Es 
+sollte allerdings darauf geachtet werden, dass die Programme im Simulationsmodus 
+mindestens mit einer Zykluszeit von 10ms abgearbeitet werden.</p>
+<h2>Programmname</h2>
+<p><span class="syntax">tempcont<br>
+simulation</span></p>
+<h2>Programmbeschreibung</h2>
+<p>Dieses Beispiel besteht aus zwei getrennten Programmen. Im Task &lt;tempcont&gt; 
+ist die Temperaturregelung, die Selbstoptimierung und die Pulsweitenmodulation 
+realisiert. Im Task &lt;simulation&gt; wird das Verhalten einer Temperaturstrecke für 
+Heizen und Kühlen simuliert. Es können zwei verschiedene Parametrierungen 
+verwendet werden:</p>
+<ul>
+  <li>Simualtionskonfiguration (SIMULATION_CONFIG)</li>
+  <li>Extruderkonfiguration (EXTRUDER_CONFIG)</li>
+</ul>
+<p>Mit Hilfe der Variable &lt;config&gt; kann zwischen diesen Modi umgeschaltet 
+werden.</p>
+<h3>Extrudermodus</h3>
+<p>Wird der Extrudermodus gewählt so entspricht das Verhalten der 
+Simulationsstrecke 
+der des B&amp;R Testextruders. Die Tuningeinstellungen werden im Extrudermodus nicht 
+verändert da die Standardwerte für das Tuning vom Funktionsbaustein automatisch 
+für Extruder voreingestellt werden. D.h. wenn der eingegebene Wert gleich Null 
+ist wird dieser durch den für Extruder passenden Standardwert ersetzt (siehe 
+LoopConR Hilfe).</p>
+<h3>Simulationsmodus</h3>
+<p>Beim Simulationsmodus wird das zeitabhängige Verhalten der Temperaturstrecke 
+um den Faktor 100 beschleunigt. Damit das Tuning trotzdem in einer angemessenen 
+Zeit durchläuft müssen gewisse Tuningeinstellungen verschieden von den 
+Standardeinstellungen gewählt werden. Um Schwingungen aufgrund der 
+Pulsweitenmodulation zu verhindern, werden die zeitabhängigen Größen hier 
+ebenfalls um den Faktor 100 verringert.</p>
+<h3>Blockschaltdiagramm</h3>
+
+<p>Folgendes Blockschaltdiagramm stellt den im Beispiel realisierten Regelkreis 
+dar.</p>
+
+<p>
+<img border="0" src="images/overview_closed_loop.png" width="1022" height="307"><br>
+&nbsp;</p>
+
+<p>Im Beispielpaket ist die Variablenmappingdatei bereits enthalten. Man muss 
+allerdings die Endung von &lt;tempcont.vvm1&gt; auf &lt;tempcont.vvm&gt; ändern und die 
+Datei muss in der Konfigurationsansicht eingefügt werden.</p>
+
+<p><img border="0" src="images/varMapping.png" width="620" height="163"></p>
+
+<h4>Mögliches I/O Mapping wenn Testhardware verfügbar</h4>
+
+<p>Dieses Beispiel ist so konstruiert, dass die Variablen, die mit Hilfe des 
+Variablen Mappings mit der Simulation verbunden sind, auch direkt an I/O Module 
+angeschlossen werden können. Aus diesem Grund ist auch das Skalieren der Werte 
+in beiden Tasks notwendig.</p>
+
+<table class="parameter_tab">
+  <tr>
+    <th class="parameter_tab">Variable</th><th class="parameter_tab">B&amp;R Hardware</th>
+  </tr>
+  <tr>
+    <td class="parameter_tab">IO_yHeat</td>
+    <td class="parameter_tab">X20AO2632</td>
+  </tr>
+  <tr>
+    <td class="parameter_tab">IO_yCool</td>
+    <td class="parameter_tab">X20DO2322</td>
+  </tr>
+  <tr>
+    <td class="parameter_tab">IO_actTemp</td>
+    <td class="parameter_tab">X20AT2402</td>
+  </tr>
+</table>
+<h3>Schrittkette tempcont</h3>
+<p>Durch ändern der Variable &lt;mode&gt; kann vom &lt;WAIT&gt; Schritt in einen gewünschten 
+Zustand gewechselt werden. Mit Hilfe der Variable &lt;config&gt; kann die 
+Konfiguration gewechselt werden, passiert dies so wird der &lt;CONFIG&gt; Schritt 
+ausgeführt und die Schrittkette startet erneut.</p>
+<p>
+<img border="0" src="images/step%20sequencer%20tempcont.png" width="539" height="695"></p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>

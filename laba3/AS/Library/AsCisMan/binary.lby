@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<Library xmlns="http://br-automation.co.at/AS/Library" Description="The AsCisMan library is used to operate compact inverter system (CIS) frequency inverters in the CIS base unit.">
+  <Files>
+    <File>AsCisMan.var</File>
+    <File>AsCisMan.typ</File>
+    <File>AsCisMan.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="AsARCfg" />
+    <Dependency ObjectName="brsystem" />
+    <Dependency ObjectName="DataObj" />
+    <Dependency ObjectName="runtime" />
+    <Dependency ObjectName="sys_lib" />
+  </Dependencies>
+</Library>

@@ -1,0 +1,28 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Library: AsNetX
+ * File: AsNetX.var
+ * Author: B+R
+ ********************************************************************
+ * Local variables of library AsNetX
+ ********************************************************************)
+
+VAR CONSTANT
+	netxERR_DEVICE				: UINT := 35001;	(*device error*)
+	netxERR_IDENT				: UINT := 35002;	(*ident error*)
+	netxERR_DRV_OPEN			: UINT := 35003;	(*open driver error*)
+	netxERR_SYSDEV_OPEN			: UINT := 35004;	(*open sysdevice error*)
+	netxERR_CFG_MODULE			: UINT := 35005;	(*configuration module error*)
+	netxERR_CFG_DOWNLOAD		: UINT := 35006;	(*configuration download error*)
+	netxERR_CHANNEL_OPEN		: UINT := 35007;	(*open channel error*)
+	netxERR_RESET				: UINT := 35008;	(*reset error*)
+	netxERR_SET_STATE			: UINT := 35009;	(*communication start/stop error*)
+	netxERR_BUS_STATE			: UINT := 35010;	(*communication bus state error*)
+	netxERR_IO_READ				: UINT := 35011;	(*read io error*)
+	netxERR_IO_WRITE			: UINT := 35012;	(*write io error*)
+	netxERR_PACKET				: UINT := 35013;	(*put/get packet error*)
+	netxERR_STACK				: UINT := 35014;	(*stack error*)
+
+	netxSTART_BY_USER			: UDINT	:= 16#00000001;	(*bus communication started by user*)
+END_VAR

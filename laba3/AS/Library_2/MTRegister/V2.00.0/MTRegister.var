@@ -1,0 +1,50 @@
+(*Error: MTRegister*)
+VAR CONSTANT
+	mtPRN_ERR_WEB_LENGTH_INVALID : DINT := -1058006164; (*The selected web length is invalid.*)
+END_VAR
+(*Error: MTRegisterSimulationModel and MTRegisterDecoupling*)
+VAR CONSTANT
+	mtPRN_ERR_NR_OF_PRINTING_UNITS : DINT := -1058006144; (*The selected number of printing units is invalid.*)
+	mtPRN_ERR_REGISTER_MODE_INVALID : DINT := -1058006138; (*The selected mode is invalid.*)
+END_VAR
+(*Error: MTRegisterSimulationModel*)
+VAR CONSTANT
+	mtPRN_ERR_TENSION_IN_INVALID : DINT := -1058006143; (*The input tension before the first printing unit is invalid.*)
+	mtPRN_ERR_MATERIAL_BREAK : DINT := -1058006137; (*Material failure was detected.*)
+END_VAR
+(*Error: MTRegisterSimulationModel and MTRegisterController*)
+VAR CONSTANT
+	mtPRN_ERR_IMAGE_LENGTH_INVALID : DINT := -1058006142; (*The circumference of the printing cylinder is invalid.*)
+	mtPRN_ERR_SENSOR_POSITION : DINT := -1058006141; (*The selected distance between the printing unit and the register mark sensor is invalid.*)
+END_VAR
+(*Error: MTRegisterController*)
+VAR CONSTANT
+	mtPRN_ERR_RESPONSE_RATE_INVALID : DINT := -1058006162; (*The selected value for the parameter that defines the time constant of the control loop is invalid.*)
+	mtPRN_ERR_MAX_VEL_CORRECTION : DINT := -1058006140; (*The selected output limit for the correction velocity is invalid.*)
+	mtPRN_ERR_RESPONSE_OVERSHOOT : DINT := -1058006139; (*The selected value for the parameter that defines the tendency of the control loop to overshoot is invalid.*)
+END_VAR
+(*Warning: MTRegister*)
+VAR CONSTANT
+	mtPRN_WRN_WEB_LENGTH_INVALID : DINT := -2131747988; (*The selected web length is invalid.*)
+END_VAR
+(*Warning: MTRegisterSimulationModel and MTRegisterDecoupling*)
+VAR CONSTANT
+	mtPRN_WRN_NR_OF_PRINTING_UNITS : DINT := -2131747968; (*The selected number of printing units is invalid.*)
+	mtPRN_WRN_REGISTER_MODE_INVALID : DINT := -2131747962; (*The selected mode is invalid.*)
+END_VAR
+(*Warning: MTRegisterSimulationModel*)
+VAR CONSTANT
+	mtPRN_WRN_TENSION_IN_INVALID : DINT := -2131747967; (*The input tension before the first printing unit is invalid.*)
+END_VAR
+(*Warning: MTRegisterSimulationModel and MTRegisterController*)
+VAR CONSTANT
+	mtPRN_WRN_IMAGE_LENGTH_INVALID : DINT := -2131747966; (*The circumference of the printing cylinder is invalid.*)
+	mtPRN_WRN_SENSOR_POSITION : DINT := -2131747965; (*The selected distance between the printing unit and the register mark sensor is invalid.*)
+END_VAR
+(*Warning: MTRegisterController*)
+VAR CONSTANT
+	mtPRN_WRN_RESPONSE_RATE_INVALID : DINT := -2131747986; (*The selected value for the parameter that defines the time constant of the control loop is invalid.*)
+	mtPRN_WRN_CTRL_PAR_CALCULATION : DINT := -2131747982; (*Calculation of the control parameters has failed.*)
+	mtPRN_WRN_MAX_VEL_CORRECTION : DINT := -2131747964; (*The selected output limit for the correction velocity is invalid.*)
+	mtPRN_WRN_RESPONSE_OVERSHOOT : DINT := -2131747963; (*The selected value for the parameter that defines the tendency of the control loop to overshoot is invalid.*)
+END_VAR

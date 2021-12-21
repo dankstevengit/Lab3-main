@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="2.5"?>
+<AcoposParameters xmlns="http://br-automation.co.at/AS/Motion/AcoposParameters" >
+<ParGroup Name-en="Axis Parameter Identification, ISQ-Ripple Compensation" Name-de="Achse Parameter Identifikation, ISQ-Ripple Kompensation" Category-en="Setup" Category-de="Setup"/>
+<Group Descr="Result Parameters of Parameter Identification">
+<Parameter ID="882" Name="ISQ-Ripple compensation: Data: Index" Value="0" />
+<Parameter ID="883" Name="ISQ-Ripple compensation: Data: Frequency" Value="0" Unit="cps" />
+<Parameter ID="884" Name="ISQ-Ripple compensation: Data: Parameter A" Value="0" Unit="A" />
+<Parameter ID="1132" Name="ISQ-Ripple compensation: Data:  Parameter B" Value="0" />
+<Parameter ID="882" Name="ISQ-Ripple compensation: Data: Index" Value="1" />
+<Parameter ID="883" Name="ISQ-Ripple compensation: Data: Frequency" Value="0" Unit="cps" />
+<Parameter ID="884" Name="ISQ-Ripple compensation: Data: Parameter A" Value="0" Unit="A" />
+<Parameter ID="1132" Name="ISQ-Ripple compensation: Data:  Parameter B" Value="0" />
+<Parameter ID="882" Name="ISQ-Ripple compensation: Data: Index" Value="2" />
+<Parameter ID="883" Name="ISQ-Ripple compensation: Data: Frequency" Value="0" Unit="cps" />
+<Parameter ID="884" Name="ISQ-Ripple compensation: Data: Parameter A" Value="0" Unit="A" />
+<Parameter ID="1132" Name="ISQ-Ripple compensation: Data:  Parameter B" Value="0" />
+<Parameter ID="882" Name="ISQ-Ripple compensation: Data: Index" Value="3" />
+<Parameter ID="883" Name="ISQ-Ripple compensation: Data: Frequency" Value="0" Unit="cps" />
+<Parameter ID="884" Name="ISQ-Ripple compensation: Data: Parameter A" Value="0" Unit="A" />
+<Parameter ID="1132" Name="ISQ-Ripple compensation: Data:  Parameter B" Value="0" />
+<Parameter ID="882" Name="ISQ-Ripple compensation: Data: Index" Value="4" />
+<Parameter ID="883" Name="ISQ-Ripple compensation: Data: Frequency" Value="0" Unit="cps" />
+<Parameter ID="884" Name="ISQ-Ripple compensation: Data: Parameter A" Value="0" Unit="A" />
+<Parameter ID="1132" Name="ISQ-Ripple compensation: Data:  Parameter B" Value="0" />
+<Parameter ID="882" Name="ISQ-Ripple compensation: Data: Index" Value="5" />
+<Parameter ID="883" Name="ISQ-Ripple compensation: Data: Frequency" Value="0" Unit="cps" />
+<Parameter ID="884" Name="ISQ-Ripple compensation: Data: Parameter A" Value="0" Unit="A" />
+<Parameter ID="1132" Name="ISQ-Ripple compensation: Data:  Parameter B" Value="0" />
+<Parameter ID="882" Name="ISQ-Ripple compensation: Data: Index" Value="6" />
+<Parameter ID="883" Name="ISQ-Ripple compensation: Data: Frequency" Value="0" Unit="cps" />
+<Parameter ID="884" Name="ISQ-Ripple compensation: Data: Parameter A" Value="0" Unit="A" />
+<Parameter ID="1132" Name="ISQ-Ripple compensation: Data:  Parameter B" Value="0" />
+<Parameter ID="882" Name="ISQ-Ripple compensation: Data: Index" Value="7" />
+<Parameter ID="883" Name="ISQ-Ripple compensation: Data: Frequency" Value="0" Unit="cps" />
+<Parameter ID="884" Name="ISQ-Ripple compensation: Data: Parameter A" Value="0" Unit="A" />
+<Parameter ID="1132" Name="ISQ-Ripple compensation: Data:  Parameter B" Value="0" />
+<Parameter ID="882" Name="ISQ-Ripple compensation: Data: Index" Value="8" />
+<Parameter ID="883" Name="ISQ-Ripple compensation: Data: Frequency" Value="0" Unit="cps" />
+<Parameter ID="884" Name="ISQ-Ripple compensation: Data: Parameter A" Value="0" Unit="A" />
+<Parameter ID="1132" Name="ISQ-Ripple compensation: Data:  Parameter B" Value="0" />
+<Parameter ID="882" Name="ISQ-Ripple compensation: Data: Index" Value="9" />
+<Parameter ID="883" Name="ISQ-Ripple compensation: Data: Frequency" Value="0" Unit="cps" />
+<Parameter ID="884" Name="ISQ-Ripple compensation: Data: Parameter A" Value="0" Unit="A" />
+<Parameter ID="1132" Name="ISQ-Ripple compensation: Data:  Parameter B" Value="0" />
+</Group>
+</AcoposParameters>
